@@ -1,6 +1,6 @@
 # kitchen-math — Home Chef Companion Kit
 
-**Version:** 1.0.0
+**Version:** 1.1.1
 **Description:** Grams-first conversions, the three real cups, pan-size and yield-scaling rules, altitude adjustments, and measurement-technique guidance for everyday home cooking.
 
 ---

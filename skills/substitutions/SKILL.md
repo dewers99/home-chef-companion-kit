@@ -1,6 +1,6 @@
 # substitutions — Home Chef Companion Kit
 
-**Version:** 1.0.0
+**Version:** 1.1.1
 **Description:** Dairy-free, gluten-free, and egg swaps; DIY pantry fallbacks; keto-sweetener baking behavior with honest evidence grades; neutral postures on contested ingredients; soy-free disambiguation.
 
 ---

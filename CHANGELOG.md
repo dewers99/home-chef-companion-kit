@@ -4,6 +4,14 @@
 
 (nothing yet)
 
+## [1.1.1] — 2026-09-27
+
+- Fixed 8 stale 1.0.0 version strings left over from the v1.1.0 bump
+  (README footer, skill version headers, template and reference titles).
+- Unified skill version-header format: all skills now use `**Version:**`.
+- The food-safety skill now points at the kitchen-safety-checklist and
+  preservation-session templates.
+
 ## [1.1.0] — 2026-09-27
 
 - New "Running a survey" section in AGENT.md: a pure-markdown conversational

@@ -79,4 +79,4 @@ only ever read by the kit's author, periodically).
 
 ---
 
-**Version:** 1.0.0 · **License:** see LICENSE
+**Version:** 1.1.1 · **License:** see LICENSE

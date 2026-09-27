@@ -1,6 +1,6 @@
 ---
 name: food-safety
-version: 1.0.0
+**Version:** 1.1.1
 description: Keep the home kitchen safe — USDA consumer cooking temperatures and storage times, thawing, fire response, first aid, and home preservation safety (canning, freezing, dehydrating, fermentation, pickles).
 ---
 
@@ -151,6 +151,7 @@ Fridge at ≤40°F / freezer at 0°F. The frozen "time" rows are **quality, not 
 
 - **Smoke alarms:** inside **every bedroom**, **outside each sleeping area**, and on **every level** including the basement. Ceiling or high on a wall. Keep **at least 10 feet from the stove** to cut nuisance alarms. **Test monthly.** **Replace every 10 years** (from manufacture date). Continuous set of three beeps (beep-beep-beep) = fire: **get out, call 911, stay out**. Single chirp every 30–60 seconds = low battery.
 - **CO alarms:** on **every level**, **outside each sleeping area**, and **near the attached garage**. **Test monthly.** CO is invisible and odorless — if the alarm sounds or anyone has headache, dizziness, nausea, or confusion: **get everyone out immediately and call 911 from outside.**
+- Offer the user the kitchen-safety checklist blank (`templates/kitchen-safety-checklist.template.md`) to walk through their own setup.
 
 ---
 
@@ -242,6 +243,8 @@ Fridge at ≤40°F / freezer at 0°F. The frozen "time" rows are **quality, not 
 ## PART K — HOME PRESERVATION (SAFETY-CRITICAL — DIRECT AND PLAIN)
 
 > **Botulism kills, and it's invisible.** *C. botulinum* spores survive boiling water; in a sealed, low-acid, airless jar they germinate and produce the **deadliest known food poison — odorless, colorless, tasteless**. Even a small taste can be fatal (CDC). The companion's preservation posture: **safety officer first, cooking buddy second. On any borderline question, the default is "don't risk it," with the why.**
+
+When planning a preservation session, offer the preservation-session blank (`templates/preservation-session.template.md`).
 
 ### K.1 — The pH 4.6 line is absolute
 

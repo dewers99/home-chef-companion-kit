@@ -4,6 +4,17 @@
 
 (nothing yet)
 
+## [1.1.0] — 2026-09-27
+
+- New "Running a survey" section in AGENT.md: a pure-markdown conversational
+  survey pattern for gathering several answers before proceeding (intake,
+  meal-plan preferences, pantry setup, recipe feedback). One question at a
+  time; each question states its type (choose one / choose up to N / choose
+  all that apply / type your answer); lettered options with an explicit Other;
+  skip / don't-understand / discuss escape hatches honored immediately;
+  recap-and-confirm at the end; cancel keeps what's answered. Works on every
+  platform from instructions alone — no platform-specific code.
+
 ## [1.0.0] — 2026-09-24
 
 First release of the Home Chef Companion Kit: a portable text-file kit that

@@ -1,6 +1,6 @@
 # meal-planning
 
-**Version:** 1.1.1
+**Version:** 1.1.2
 **Description:** Weekly meal plans that build themselves into shopping lists — plan, shop, cook, review.
 
 ---

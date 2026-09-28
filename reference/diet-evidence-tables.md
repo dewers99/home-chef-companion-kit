@@ -1,4 +1,4 @@
-# Named-Diet Evidence Tables — Home Chef Companion Kit v1.1.1
+# Named-Diet Evidence Tables — Home Chef Companion Kit v1.1.2
 
 **Reference appendix.** Consulted only when the user asks for the evidence behind a claim. Evidence grades: **A** = strong RCT / consistent meta-analysis · **B** = consistent observational · **C** = preliminary, small, or short-term · **D** = contested or insufficient. Contradictions are flagged, not resolved.
 

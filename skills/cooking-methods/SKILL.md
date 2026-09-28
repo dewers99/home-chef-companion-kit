@@ -1,6 +1,6 @@
 # cooking-methods — Home Chef Companion Kit
 
-**Version:** 1.1.1
+**Version:** 1.1.2
 **Description:** Full method reference (appliances, stovetop, burners, smokers, grills) plus the cut-to-method reasoning rule: match the method to the muscle's lifetime workload.
 
 ---

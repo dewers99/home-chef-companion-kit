@@ -1,7 +1,7 @@
 # Intake & Adaptation Skill
 
 **Name:** intake-and-adaptation
-**Version:** 1.1.1
+**Version:** 1.1.2
 **Description:** Guided intake quiz and portable user profile — how the companion learns
 a cook's skill level, household, tastes, equipment, and preferences so every answer is
 personalized from day one.
@@ -37,7 +37,7 @@ Then follow these rules:
 - **Medical items are stated-only.** For medical avoidances and allergies: ask once,
   record exactly what they say, never probe for a diagnosis, never originate advice.
 - **Record kit version + install date in the profile at intake** (from `VERSION` at
-  the kit root — currently 1.1.1). Update preferences are NOT asked at intake; they're
+  the kit root — currently 1.1.2). Update preferences are NOT asked at intake; they're
   asked the first time an update check finds an update.
 
 ## The 12 question domains

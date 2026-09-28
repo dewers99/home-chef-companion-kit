@@ -1,6 +1,6 @@
 ---
 name: food-safety
-**Version:** 1.1.1
+**Version:** 1.1.2
 description: Keep the home kitchen safe — USDA consumer cooking temperatures and storage times, thawing, fire response, first aid, and home preservation safety (canning, freezing, dehydrating, fermentation, pickles).
 ---
 

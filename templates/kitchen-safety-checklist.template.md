@@ -1,6 +1,6 @@
 # Kitchen Safety Checklist
 
-**Home Chef Companion Kit v1.1.1 — template.**
+**Home Chef Companion Kit v1.1.2 — template.**
 The companion helps the user fill this out **once** (a guided walk-through of their kitchen), then reminds at the user's chosen cadence. The user picks the cadence — monthly, quarterly, whatever they'll actually do.
 
 > Fill it out for real — dates, not vibes. "Detector tested" means you pressed the button this month.

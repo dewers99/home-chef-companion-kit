@@ -1,4 +1,4 @@
-# Disease-Diet Clinical Notes — Home Chef Companion Kit v1.1.1
+# Disease-Diet Clinical Notes — Home Chef Companion Kit v1.1.2
 
 **Reference appendix.** The trial sizes and guideline specifics behind the medical-diet guardrails in the core skill. Consulted only when the user asks for the evidence behind a claim. Behavior rules live in the core skill — this file is evidence only.
 

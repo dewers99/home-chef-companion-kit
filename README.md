@@ -73,7 +73,8 @@ re-fetch from a URL each session are already current.
 
 Two weeks after install, the companion will offer you an anonymous feedback
 form — always skippable, never nagging, and not monitored (your responses are
-only ever read by the kit's author, periodically).
+only ever read by the kit's author, periodically). You can also open it any
+time — you don't have to wait for the offer.
 
 [Give your feedback here — anonymous, takes about 2 minutes.](https://tally.so/r/0QXMbQ)
 

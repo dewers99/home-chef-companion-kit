@@ -118,6 +118,7 @@ every session, it's already current — no update check needed.
 Two weeks after install, the companion will offer you an anonymous feedback
 form — always skippable, never nagging, and not monitored in real time
 (responses are only read by the kit's author, periodically). Saying "no
-thanks" once means it won't ask again.
+thanks" once means it won't ask again. You can also open it any time —
+you don't have to wait for the offer.
 
 [Give your feedback here — anonymous, takes about 2 minutes.](https://tally.so/r/0QXMbQ)

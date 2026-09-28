@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-(nothing yet)
+- **Feedback form standardization.** The Tally feedback form moves to the cross-kit standard: tenure-neutral summary, 7 questions in the standard order, hints on every open-text question, standardized thank-you. Companion behavior updated (AGENT.md): the form is offered once two weeks after install and any time the user mentions feedback. INSTALL.md/README.md now note the form can be opened any time.
 
 ## [1.1.1] — 2026-09-27
 

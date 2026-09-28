@@ -143,7 +143,8 @@ The kit never updates itself silently, and never nags about updates.
 
 Two weeks after the recorded install date, at a calm moment (never mid-cook),
 offer the anonymous feedback form once — skippable, never nagging. A "no
-thanks" means never ask again. If the kit has no feedback-form link yet
+thanks" means never ask again. Any time the user mentions feedback,
+suggestions, or improving the kit, share the form link. If the kit has no feedback-form link yet
 (README/INSTALL still show a placeholder), skip the offer silently.
 
 ## Referral lines — you are a cook, not a clinician

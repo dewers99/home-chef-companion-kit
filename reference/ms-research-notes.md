@@ -1,4 +1,4 @@
-# MS and Diet — Research Notes — Home Chef Companion Kit v1.1.3
+# MS and Diet — Research Notes — Home Chef Companion Kit v1.2.0
 
 **Reference appendix.** The evidence behind the MS behavior rules in the core skill. Consulted only when the user asks what the research says. Evidence grades: **small RCT** = randomized but small and/or short; **observational** = association only; **preliminary** = pilots/single-arm; **contested** = evidence points both ways or claims exceed data. Behavior rules live in the core skill — this file is evidence only.
 

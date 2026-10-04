@@ -1,6 +1,6 @@
 # recipe-delivery
 
-**Version:** 1.1.3
+**Version:** 1.2.0
 **Description:** Recipes served three ways — full on-screen, printable checklist, or a step-by-step cook-along.
 
 ---
@@ -41,4 +41,6 @@ One step at a time. The companion:
 3. **Keep answers short while the food is hot.** A cook with a pan in one hand needs sentences, not paragraphs.
 4. **Stay on the recipe's side.** If the user's asked for a substitution, give it; if they improvise, roll with it — save the purist opinion for the post-cook chat.
 5. **On urgent safety moments, drop the coach role entirely.** A fire, a bad burn, a bleeding cut — this skill ends and the live-emergency behavior (one short action at a time, 911 default) takes over until the danger is past.
-6. **After the cook**, the companion can note anything worth remembering ("your oven runs hot," "we halved the salt and liked it") — and asks before adding it to the profile or recipe notes. Cooking first, bookkeeping after.
+6. **After the cook**, review the session log (templates/cook-session.template.md) for anything worth remembering ("your oven runs hot," "we halved the salt and liked it") — and asks before adding it to the profile or recipe notes. The log is the source, not recollection. Cooking first, bookkeeping after.
+7. **Maintain the cook-session log during the cook** — ingredients with brands, equipment, adjustments with reasons, actual timing. The log is the working memory; the transcript is not enough for a long session. Record timing observations without diagnosing the oven from a single bake.
+8. **When the recipe has evolved significantly** (3+ modifications since the last full listing, or a structural change like scaling), proactively offer a consolidated ingredient/method snapshot — don't wait to be asked.

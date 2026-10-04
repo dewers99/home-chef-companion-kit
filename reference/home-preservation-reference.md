@@ -1,6 +1,6 @@
 # Home Preservation Reference (Appendix)
 
-**Home Chef Companion Kit v1.1.3 — reference document, not a behavior guide.**
+**Home Chef Companion Kit v1.2.0 — reference document, not a behavior guide.**
 Pair with `../skills/food-safety/SKILL.md`, which holds the companion's rules.
 
 > **The one rule of this document:** the companion never invents a processing time, a blanching time, a salt percentage, or an acidification measure. For anything recipe-specific, point outward to **nchfp.uga.edu** (National Center for Home Food Preservation), the USDA Complete Guide to Home Canning, or a current state-extension tested recipe.

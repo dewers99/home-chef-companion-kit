@@ -4,6 +4,15 @@
 
 (nothing yet)
 
+## [1.2.0] — 2026-10-04
+
+- **Cook-session logging + feedback loop.** The companion now actively maintains a session log during cooks instead of relying on transcript memory.
+- **New template:** `templates/cook-session.template.md` — session log with timing agreement, ingredients (with brands), equipment, adjustments, timing notes, outcome observations, unanswered offers, feedback, and annotations for next time.
+- **New AGENT.md section "Cook sessions":** at the start of the cook the companion asks when the food will be eaten and permission to follow up; during the cook it logs actively (with proactive consolidated snapshots when the recipe evolves significantly, and record-don't-diagnose timing discipline); at the end it wraps cleanly; at follow-up it asks "How'd it turn out?" and converses over three dimensions (overall result, what worked/didn't, what to change next time), re-raising any unanswered offers.
+- **Recipe-delivery skill:** house rules 7 (session logging) and 8 (proactive snapshots) added; rule 6 now sources post-cook notes from the session log.
+- **INSTALL.md:** honest limits on follow-up scheduling — platform-dependent, with next-interaction fallback where the platform can't ping proactively.
+- Origin: Daniel's 2026-10-04 fathead pizza cook audit (live install recorded nothing; transcript-only state proved fragile).
+
 ## [1.1.3] — 2026-10-04
 
 - **Research re-verification pass.** Closed the self-flagged primary-source gaps from the 2026-10-04 truthfulness audit — no fabricated claims were found; this release attaches primary citations and corrects two figures.

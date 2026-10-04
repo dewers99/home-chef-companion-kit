@@ -1,6 +1,6 @@
 # pantry-tracker
 
-**Version:** 1.1.3
+**Version:** 1.2.0
 **Description:** A conversational pantry and fridge inventory — the companion keeps the record through normal cooking chat, nudges before you run out.
 
 ---

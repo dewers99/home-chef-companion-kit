@@ -1,6 +1,6 @@
 # technique — Home Chef Companion Kit
 
-**Version:** 1.1.3
+**Version:** 1.2.0
 **Description:** Stocks and broths done honestly, yeast and proofing by the numbers, and sourdough taught by reading the dough — not the clock.
 
 ---

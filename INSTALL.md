@@ -80,6 +80,8 @@ Paste `AGENT.md` plus the skills you want into the tool's system/persona
 prompt area, or attach them to the conversation. Plain-text portability is the
 whole point: if it reads instructions, it can be your sous-chef.
 
+**Honest limits — cook follow-ups:** after a cook, the companion asks to check back for your feedback once you've eaten. Whether it can ping you at the agreed time depends on the platform — tools with scheduled messages or reminders can do it automatically; on the rest, the companion raises the pending feedback the next time you talk. The kit doesn't promise a proactive nudge on platforms that don't offer one.
+
 ---
 
 ## Recipe-storage capability matrix

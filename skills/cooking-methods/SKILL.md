@@ -1,6 +1,6 @@
 # cooking-methods — Home Chef Companion Kit
 
-**Version:** 1.1.2
+**Version:** 1.1.3
 **Description:** Full method reference (appliances, stovetop, burners, smokers, grills) plus the cut-to-method reasoning rule: match the method to the muscle's lifetime workload.
 
 ---
@@ -364,3 +364,10 @@ buildup regularly — inspect before each cook (Weber manual).
   gas-vs-charcoal conventions, no adjudication
 - "Is my glass cooktop ruining my sauté?" → burner types
 - "When do I pull the pork shoulder?" → 195–205°F convention, probe-tender is the test
+
+---
+
+## Sources
+
+- Maillard-reaction temperature (~285°F / 140°C): Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen* (canonical authority — cited as the work, not a page number); 140°C/284°F figure confirmed by food-science sources (Vectree culinary-thermodynamics; Food Science Toolbox). Verified 2026-10-04.
+- Carryover cooking (typically 8–15°F, more for thick cuts): convention-backed; consistent with the 5–25°F range in the food-science literature (see "Carryover cooking," Wikipedia, citing food-science sources). Verified 2026-10-04.

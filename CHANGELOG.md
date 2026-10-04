@@ -4,6 +4,16 @@
 
 (nothing yet)
 
+## [1.1.3] — 2026-10-04
+
+- **Research re-verification pass.** Closed the self-flagged primary-source gaps from the 2026-10-04 truthfulness audit — no fabricated claims were found; this release attaches primary citations and corrects two figures.
+- **MS research notes:** Swank 1990 characterization verified against the NLM primary abstract (PMID 1973220; full text paywalled at The Lancet — noted honestly). Both 2026 vitamin-D/MS papers verified from primary PubMed abstracts (network meta-analysis: PMID 42242131, 32 RCTs, n=2,254, RR 0.80 for relapse; *Brain and Behavior* systematic review: DOI 10.1002/brb3.71692, 11 studies, narrative synthesis). The apparent contradiction is resolved in-file: the June paper pools quantitatively and finds a modest long-term signal; the September paper declines to pool and reports inconsistency — both agree the evidence doesn't support disease-modification claims. Grade stays "contested."
+- **Food safety:** burn-cooling verified against redcross.org ("immediately run cool (not cold) water over the affected area for 10–20 minutes") — the skill now cites redcross.org. Tomato acidification measures verified against NCHFP's acidification table (lemon juice 1 Tbsp/pint, 2 Tbsp/quart; citric acid ¼ tsp/pint, ½ tsp/quart; 5% vinegar 2 Tbsp/pint, 4 Tbsp/quart).
+- **Corrections:** FoodKeeper butter storage corrected **1–3 months → 1–2 months** refrigerated (verified against the FoodKeeper database on foodsafety.gov; 6–9 months frozen and mayo 2 months confirmed). Jerky temperature rule tightened to match the FSIS Meat and Poultry Hotline's current recommendation: heat meat to 160°F / poultry to 165°F **before** dehydrating ("before or after" was looser than the current guidance); the live fsis.usda.gov domain was unreachable ("Access Denied"), so verification used the September 2026 Wayback Machine snapshot — noted in-file.
+- **Diet evidence tables:** VA HSR&D eBrief no. 104 and PMIDs 39783962, 41129328, 41599961 independently verified; Sources section now carries full titles, DOIs, and verification notes.
+- **New Sources sections** in the cooking-methods, technique, and kitchen-math skills: Maillard ~285°F (McGee *On Food and Cooking*; 140°C/284°F food-science figure), carryover 8–15°F (convention, 5–25°F literature range), yeast temps (Red Star Yeast: ADY 110–115°F, instant ~120°F, dies ~140°F), altitude (NMSU Extension Guide E-215; CSU Extension), Gas Mark conversions.
+- Standing cautions preserved untouched: the niacin "spot-check a physical package" caveat, the Petersen-review Soy Nutrition Institute funding disclosure, and the two retracted monk-fruit paper disclosures.
+
 ## [1.1.2] — 2026-09-27
 
 - **Feedback form standardization.** The Tally feedback form moves to the cross-kit standard: tenure-neutral summary, 7 questions in the standard order, hints on every open-text question, standardized thank-you. Companion behavior updated (AGENT.md): the form is offered once two weeks after install and any time the user mentions feedback. INSTALL.md/README.md now note the form can be opened any time.

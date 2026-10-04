@@ -1,6 +1,6 @@
 ---
 name: food-safety
-**Version:** 1.1.2
+**Version:** 1.1.3
 description: Keep the home kitchen safe — USDA consumer cooking temperatures and storage times, thawing, fire response, first aid, and home preservation safety (canning, freezing, dehydrating, fermentation, pickles).
 ---
 
@@ -61,7 +61,7 @@ Fridge at ≤40°F / freezer at 0°F. The frozen "time" rows are **quality, not 
 | Cooked leftovers / casseroles / soups / stews | **3–4 days** | 2–3 mo |
 | Eggs, in shell | **3–5 weeks** | do not freeze in shell |
 | Milk (plain or flavored) | **1 week** | — |
-| Butter | 1–3 months | 6–9 mo |
+| Butter | 1–2 months | 6–9 mo |
 | Opened mayonnaise | **2 months** | — |
 
 **Rows shipped with "check the label," not a number:** opened ketchup, mustard, and other condiments. The research found **no per-item primary source** for these rows — the companion must not print a number from memory. Say: *"Check the label — if it gives a refrigerated shelf life after opening, follow it."*
@@ -144,7 +144,7 @@ Fridge at ≤40°F / freezer at 0°F. The frozen "time" rows are **quality, not 
 ### First-aid basics for the kitchen
 
 - Keep a small kit: sterile dressings/gauze, adhesive bandages, antibiotic ointment, medical tape, scissors, disposable gloves.
-- **Burns:** cool **running water for at least 10 minutes, ideally 20** (American Red Cross burn-cooling guidance). **Never ice** — it worsens the burn. Remove overlying clothing and jewelry promptly (they hold heat); cover loosely with a sterile dressing. **Call 911 for severe burns.**
+- **Burns:** cool **running water for at least 10 minutes, ideally 20** — American Red Cross: "immediately run cool (not cold) water over the affected area for 10–20 minutes" (redcross.org, verified 2026-10-04). **Never ice** — it worsens the burn. Remove overlying clothing and jewelry promptly (they hold heat); cover loosely with a sterile dressing. **Call 911 for severe burns.**
 - **Cuts:** cover with a sterile dressing and **apply direct pressure until bleeding stops**; bandage. If it won't stop: add more dressings **on top** (don't remove the soaked one), keep pressing, **call 911**.
 
 ### Smoke and CO detectors (fire-service placement guidance)
@@ -341,7 +341,7 @@ Covered in full in Parts D and E above and in the appendix. The companion's pres
 
 **Dehydrating (a race, not "low and slow"):**
 - Jerky: dehydrator at **130–140°F** during drying — too low never dries (microbes grow in wet food), too high **case-hardens** the outside, trapping moisture that spoils later. Fruits/vegetables: ~**140°F** optimum.
-- **Jerky has a USDA temperature rule:** meat to **160°F internal / poultry to 165°F internal — BEFORE or AFTER dehydrating**, verified with a thermometer. Dehydrator heat goes into evaporating moisture; bacteria survive until late and become *more* heat-resistant. **"Dehydrate raw meat" is never presented as sufficient.** Slice ≤1/4″, trim fat, keep meat ≤40°F before drying.
+- **Jerky has a USDA temperature rule:** meat to **160°F internal / poultry to 165°F internal — BEFORE dehydrating** (the USDA Meat and Poultry Hotline's current recommendation: "Steam or roast meat to 160°F and poultry to 165°F, as measured with a food thermometer, before dehydrating it"), verified with a thermometer. Dehydrator heat goes into evaporating moisture; bacteria survive until late and become *more* heat-resistant. **"Dehydrate raw meat" is never presented as sufficient.** Slice ≤1/4″, trim fat, keep meat ≤40°F before drying.
 - Fruits: condition 7–10 days in jars, shaking daily; condensation = re-dry. Vegetables to brittle (~10% moisture) need no conditioning. **Moldy dried food is discarded.** Cool completely before packaging; store cool, dark, dry; fruits ~1 yr at 60°F (~6 mo at 80°F); vegetables about half that.
 
 **Fermentation (salt is pathogen control, not seasoning):**
@@ -400,12 +400,11 @@ The companion must **never** say or approve any of these:
 These items shipped as gaps in the research; the companion encodes them as labeled gaps, not facts:
 
 - **Condiment storage times (opened ketchup, mustard, dressings):** no per-item primary source — ship with "check the label" (see Part C).
-- **Tomato acidification spoon measures:** widely repeated, not primary-confirmed — the companion sends users to the tested recipe's numbers instead of quoting them.
+- **Tomato acidification measures** verified against NCHFP's "Tomato acidification directions" 2026-10-04: bottled lemon juice 1 Tbsp/pint, 2 Tbsp/quart; citric acid ¼ tsp/pint, ½ tsp/quart; 5%-acidity vinegar 2 Tbsp/pint, 4 Tbsp/quart (https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-acidification-directions/). The companion may cite this table; for anything recipe-specific it still points to the tested recipe's own measures.
 - **Atmospheric steam canners:** unverified — companion sticks with water bath + pressure.
 - **Smoker-specific fire guidance:** encoded from manufacturer manuals (Traeger/Weber: turn off, lid closed, no water, call the fire department); no fire-department page specific to smokers was found.
-- **Burn-severity triage details** (palm rule, location-based escalation): not re-verified this pass — the companion uses "call 911 for severe burns; when in doubt, call 911 or urgent care" and doesn't improvise a rubric.
-- **First-aid wording** came via Red Cross manual mirrors, not redcross.org directly — the skill keeps the protocol wording **without** citing redcross.org for it.
-- **FoodKeeper numbers** came via USDA-verbatim mirrors — a future pass should re-confirm against a USDA-hosted source.
+- **Burn-cooling wording** verified against redcross.org 2026-10-04 (American Red Cross: "immediately run cool (not cold) water over the affected area for 10–20 minutes") — the skill now cites redcross.org for it. Burn-severity triage details (palm rule, location-based escalation) remain unverified — the companion uses "call 911 for severe burns; when in doubt, call 911 or urgent care" and doesn't improvise a rubric.
+- **FoodKeeper numbers** verified against the FoodKeeper database on foodsafety.gov (live) 2026-10-04: butter **1–2 months** refrigerated (the skill previously said 1–3 months — corrected), 6–9 months frozen; opened commercial mayonnaise **2 months** refrigerated. Note: the FSIS refrigeration fact sheet chart does not list butter or mayonnaise — FoodKeeper is the primary source for those two rows.
 - **NCHFP blanching page text** (ice-bath cooling wording) — point outward to nchfp.uga.edu rather than hardcoding.
 - The companion **points outward to nchfp.uga.edu** for anything recipe-specific and **never invents a processing time**.
 

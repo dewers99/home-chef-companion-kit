@@ -1,6 +1,6 @@
 # Home Preservation Reference (Appendix)
 
-**Home Chef Companion Kit v1.1.2 — reference document, not a behavior guide.**
+**Home Chef Companion Kit v1.1.3 — reference document, not a behavior guide.**
 Pair with `../skills/food-safety/SKILL.md`, which holds the companion's rules.
 
 > **The one rule of this document:** the companion never invents a processing time, a blanching time, a salt percentage, or an acidification measure. For anything recipe-specific, point outward to **nchfp.uga.edu** (National Center for Home Food Preservation), the USDA Complete Guide to Home Canning, or a current state-extension tested recipe.
@@ -174,9 +174,9 @@ Maintaining **130–140°F** in the dehydrator during drying matters because: th
 
 ### Jerky — the USDA temperature rule
 
-Meat to **160°F internal / poultry to 165°F internal — BEFORE or AFTER dehydrating**, verified with a thermometer. Why dehydrating alone fails: most dehydrator heat goes into evaporating moisture, so the meat's temperature doesn't rise until most moisture is gone — by then the bacteria are **more heat resistant** and likelier to survive. Homemade jerky has caused *Salmonella* and *E. coli* O157:H7 illness.
+Meat to **160°F internal / poultry to 165°F internal — BEFORE dehydrating**, verified with a thermometer. This is the USDA Meat and Poultry Hotline's current recommendation: "Steam or roast meat to 160°F and poultry to 165°F, as measured with a food thermometer, before dehydrating it" (verified from the FSIS "Jerky and Food Safety" page, September 2026 archive — fsis.usda.gov was not directly reachable, see §8). Why dehydrating alone fails: most dehydrator heat goes into evaporating moisture, so the meat's temperature doesn't rise until most moisture is gone — by then the bacteria are **more heat resistant** and likelier to survive ("After drying, bacteria become much more heat resistant"). Homemade jerky has caused *Salmonella* and *E. coli* O157:H7 illness.
 
-Two approved methods (Ohio State Extension): **pre-cook** (USDA-recommended safest — simmer/steam in marinade or bake at 325°F on wire racks to 160°F/165°F internal), or **post-drying heat** (dried strips single-layer at 275°F oven until internal 160°F/165°F). Prep: slice ≤1/4″, trim all fat, keep meat ≤40°F, defrost in the fridge (never the counter), marinate for flavor then heat.
+Two methods described in extension sources: **pre-cook** (the FSIS-recommended safest — simmer/steam in marinade or bake at 325°F on wire racks to 160°F/165°F internal), or **post-drying heat** (Ohio State Extension: dried strips single-layer at 275°F oven until internal 160°F/165°F). FSIS's current recommendation is the pre-cook method, because post-drying bacteria are harder to kill. Prep: slice ≤1/4″, trim all fat, keep meat ≤40°F, defrost in the fridge (never the counter), marinate for flavor then heat.
 
 ### Dryness, conditioning, storage (NCHFP)
 
@@ -186,7 +186,7 @@ Two approved methods (Ohio State Extension): **pre-cook** (USDA-recommended safe
 - **Conditioning** (fruit only): pack cooled fruit loosely in jars, seal, stand **7–10 days, shake daily**; condensation = return to the dehydrator. Conditioning equalizes moisture and reduces mold risk.
 - **Moldy dried food is discarded.** Food that absorbed moisture but isn't spoiled: use immediately or re-dry and repackage.
 - Storage: cool completely first (warm food sweats → mold); clean, dry, insect-proof containers; cool, dark, dry. Fruits: **~1 yr at 60°F, ~6 mo at 80°F**; vegetables about half of fruits.
-- *Verification note: the USDA jerky page wording came via an archived mirror — see §6.*
+- *Verification note: FSIS "Jerky and Food Safety" wording verified from the September 2026 Wayback Machine snapshot (the live fsis.usda.gov domain returned "Access Denied" to automated reads) — see §8.*
 
 ---
 
@@ -281,15 +281,15 @@ Home-canned **low-acid** foods from a **trusted procedure** where there is ***do
 
 The companion encodes these as labeled gaps, never as facts:
 
-1. **Jerky page wording vs live FSIS.** The USDA/FSIS "Jerky and Food Safety" text used in research came via an archived mirror (cybercemetery.unt.edu). Cross-check against the current FSIS jerky page before the companion teaches jerky prep verbatim.
+1. **Jerky page wording vs live FSIS — RESOLVED 2026-10-04.** Cross-checked against the September 2026 Wayback Machine snapshot of the current FSIS "Jerky and Food Safety" page (https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-fish/jerky — the live fsis.usda.gov domain returned "Access Denied" to automated reads, so the archive was used). The Hotline's current recommendation is to heat meat to 160°F / poultry to 165°F **before** dehydrating ("Steam or roast meat to 160°F and poultry to 165°F, as measured with a food thermometer, before dehydrating it"); the kit's earlier "before or after" wording has been tightened to match, and the dehydrator 130–140°F range is confirmed. The companion now teaches the pre-cook method as the FSIS recommendation.
 2. **Blanching per-vegetable pages.** The NCHFP blanching times table is cited rather than reprinted; the ice-water cooling wording was not captured verbatim; and the "no blanching needed for tomatoes/peppers/onions" chart contradicts NCHFP's own per-vegetable times. One pass over NCHFP's per-vegetable freezing pages is recommended.
-3. **FoodKeeper numbers vs a USDA-hosted source.** Fridge/freezer storage-time numbers came via USDA-header-verbatim mirrors (FoodKeeper app page itself was unreachable). Confirm against the live FoodKeeper app or a USDA-hosted PDF — including the currently omitted condiment rows (opened ketchup/mustard/dressings) and yogurt, which have **no primary-source numbers yet** and ship with "check the label" until then.
-4. **Tomato acidification spoon measures.** The standard measures (bottled lemon juice / citric acid per pint and quart) are widely repeated but were **not confirmed from a primary source** this pass. Verify against NCHFP's tomato pages before the companion quotes them. Until then: the companion sends users to the tested recipe's own measures.
+3. **FoodKeeper numbers vs a USDA-hosted source — RESOLVED 2026-10-04.** Verified against the FoodKeeper database on foodsafety.gov (live): butter 1–2 months refrigerated (corrected from 1–3), 6–9 months frozen; opened commercial mayonnaise 2 months refrigerated. Note: the FSIS refrigeration fact sheet chart does not list butter or mayonnaise — FoodKeeper is the primary source for those rows. Still open: the omitted condiment rows (opened ketchup/mustard/dressings) and yogurt have **no primary-source numbers yet** and ship with "check the label" until then.
+4. **Tomato acidification spoon measures — RESOLVED 2026-10-04.** Verified against NCHFP's "Tomato acidification directions" (https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/tomato-acidification-directions/): bottled lemon juice 1 Tbsp per pint / 2 Tbsp per quart; citric acid ¼ tsp per pint / ½ tsp per quart; 5%-acidity vinegar 2 Tbsp per pint / 4 Tbsp per quart. The companion may cite this NCHFP table directly; for anything recipe-specific it still defers to the tested recipe's own measures.
 5. **Atmospheric steam canners.** USDA's NAL exhibit lists boiling-water and pressure as the only recommended methods; NCHFP has separate steam-canner guidance that was not verified. Unresolved — kit stays with the two classic methods.
 6. **Thaw/refreeze detail paragraphs.** The detailed thaw and refreeze text came via archived FSIS PDFs ("Freezing and Food Safety," "The Big Thaw") with the core claims corroborated on the live FSIS "Keep Food Safe!" page — re-verify the details against a live fsis.usda.gov URL in the next pass.
 7. **General headspace table by food type** (¼″ jams/jellies, ½″ fruits/tomatoes, 1–1¼″ low-acid/meats) — seen in NCHFP per-recipe instructions but not confirmed as a standalone general rule. Verify against USDA Guide 1 before the kit teaches defaults.
 8. **Smoker-specific fire guidance.** No authoritative fire-department page specific to smokers was found; the skill's smoker-fire guidance extends fire-service grill rules by analogy. Check manufacturer safety manuals (Traeger, Weber, Pit Boss) and any fire-department smoker bulletins in a future pass.
-9. **Burn-severity triage and first-aid wording.** Burn-cooling numbers come from the American Red Cross Scientific Advisory Council's 2019 advisory; detailed severity triage (palm rule, location-based rules) and the cut-care wording were not re-verified against redcross.org directly — the skill keeps the wording **without** citing redcross.org. Re-verify before sharpening triage language.
+9. **Burn-severity triage and first-aid wording — burn-cooling RESOLVED 2026-10-04.** Burn-cooling verified against redcross.org (American Red Cross: "immediately run cool (not cold) water over the affected area for 10–20 minutes") — the skill now cites redcross.org for it. Still open: detailed severity triage (palm rule, location-based rules) was not re-verified — the skill keeps "call 911 for severe burns; when in doubt, call 911 or urgent care" and doesn't improvise a rubric.
 10. **The "4-hour rule."** There is none in USDA consumer guidance — it's an FDA Food Code commercial concept (cooling 135→70°F in 2 hours, then to 41°F within 6 total). The kit teaches only the 2-hour (1-hour above 90°F) rule and names the 4-hour concept as retail-only.
 
 ---

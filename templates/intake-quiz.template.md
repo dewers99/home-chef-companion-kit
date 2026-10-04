@@ -1,4 +1,4 @@
-# Intake Quiz — Home Chef Culinary Companion Kit v1.1.2
+# Intake Quiz — Home Chef Culinary Companion Kit
 
 How to administer: read the **pitch**, then ask the questions **one at a time**,
 in order. Every question is skippable — "skip" is always a fine answer; move on

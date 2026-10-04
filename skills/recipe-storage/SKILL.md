@@ -1,6 +1,6 @@
 # recipe-storage
 
-**Version:** 1.1.2
+**Version:** 1.1.3
 **Description:** The companion saves and organizes YOUR recipes — no bundled cookbook, just your box.
 
 ---

@@ -1,4 +1,4 @@
-# Food and Mental Health — Nutrient Notes — Home Chef Companion Kit v1.1.2
+# Food and Mental Health — Nutrient Notes — Home Chef Companion Kit v1.1.3
 
 **Reference appendix.** The nutrient-by-nutrient patchwork behind anything the companion says about food and mood. Consulted only when the user asks for the evidence behind a claim. Grades: **strong RCT** = replicated RCTs in clinical populations · **observational** = associations, cannot show causation · **preliminary** = small/single/short trials · **contested** = legitimate expert disagreement or conflicting meta-analyses.
 

@@ -1,4 +1,4 @@
-# MS and Diet — Research Notes — Home Chef Companion Kit v1.1.2
+# MS and Diet — Research Notes — Home Chef Companion Kit v1.1.3
 
 **Reference appendix.** The evidence behind the MS behavior rules in the core skill. Consulted only when the user asks what the research says. Evidence grades: **small RCT** = randomized but small and/or short; **observational** = association only; **preliminary** = pilots/single-arm; **contested** = evidence points both ways or claims exceed data. Behavior rules live in the core skill — this file is evidence only.
 
@@ -44,8 +44,9 @@ Created by physician Terry Wahls (who has secondary-progressive MS). The WahlsEl
 **Interventional evidence — grade: contested:**
 - 2013 meta-analysis of 5 small RCTs (n=254): no significant effect of high-dose vitamin D on relapse risk (OR 0.98, 95% CI 0.45–2.16).
 - 2021 meta-analysis: "vitamin D supplements (high or low dose) have no significant effect on relapse rate and disability during treatment."
-- September 2026 systematic review (*Brain and Behavior*, 11 studies incl. 8 RCTs): inconsistent evidence — "High-dose supplementation for disease modification is not supported by current data."
-- June 2026 meta-analysis of 32 RCTs (n=2,254, mostly add-on to disease-modifying therapies): long-term (>1 yr) supplementation associated with ~20% lower relapse risk and modest disability-score improvement — newer, conflicts with earlier meta-analyses, needs independent replication.
+- September 2026 systematic review (Hall et al., *Brain and Behavior* 2026;16(8), DOI 10.1002/brb3.71692): 11 primary studies, narrative synthesis (no pooling — heterogeneity too high): vitamin D "does not consistently reduce relapse rates in adults with MS," though some studies report MRI lesion-activity improvement. "Current data does not support vitamin D as a disease-modifying therapy beyond correction of deficiency." Verified from the PubMed abstract 2026-10-04.
+- June 2026 network meta-analysis of 32 RCTs (n=2,254, mostly add-on to disease-modifying therapies; PMID 42242131, *Clin Nutr* 2026): long-term (>1 yr) supplementation associated with lower relapse risk (RR 0.80) and modest disability-score improvement (EDSS MD −0.22); high-dose long-duration most effective (relapse RR 0.76, 95% CI 0.59–0.98). Verified from the PubMed abstract 2026-10-04 — the "~20% lower relapse risk" figure is confirmed.
+- **Resolving the contradiction:** the two 2026 reviews are not directly comparable. The June paper *pools* 32 RCTs quantitatively and finds a modest long-term/high-dose signal; the September paper *declines to pool* (heterogeneity) and reports inconsistency across 11 studies narratively. Both agree the evidence does not support vitamin D as a disease-modifying therapy — the June authors frame it as "may reduce relapse and disability progression… particularly in deficient populations" (cautious adjunct language), the September authors as "not supported… beyond correction of deficiency." Genuinely contested; present as such. Specific numbers from the June paper may now be cited (verified); the September review reports no pooled numbers to cite.
 - Practical consensus in reviews: most people with MS are vitamin D deficient, so avoiding deficiency per general guidelines (levels monitored by the care team) is prudent general health advice — **not an MS treatment**.
 
 **Bottom line:** worth not being deficient in, like everyone else; the evidence that supplementation changes MS course is genuinely contested.
@@ -69,16 +70,16 @@ Created by physician Terry Wahls (who has secondary-progressive MS). The WahlsEl
 
 ---
 
-## 5. Contradictions flagged (not resolved)
+## 5. Contradictions flagged (vitamin D resolved 2026-10-04; dairy, sodium, cognition still open)
 
-- **Vitamin D:** 2021 meta-analysis (no effect on relapse/disability) vs. June 2026 meta-analysis of 32 RCTs (~20% lower relapse risk) vs. September 2026 systematic review (inconsistent; high-dose not supported). Genuinely unsettled — present as contested. The 2026 papers were reached via news summaries, not full text; verify before citing specific numbers.
+- **Vitamin D:** 2021 meta-analysis (no effect on relapse/disability) vs. June 2026 network meta-analysis of 32 RCTs (~20% lower relapse risk, RR 0.80 — verified from the primary abstract 2026-10-04) vs. September 2026 *Brain and Behavior* systematic review (11 studies, narrative synthesis, inconsistent; "not supported… beyond correction of deficiency" — verified from the primary abstract 2026-10-04). Resolution: the June paper pools quantitatively and finds a modest long-term signal; the September paper declines to pool and reports inconsistency. Both agree the evidence doesn't support disease-modification claims. Genuinely unsettled — present as contested.
 - **Dairy:** two observational studies point in opposite directions (n=2,087 vs. n=6,989). NMSS: unclear.
 - **Sodium:** one study links higher sodium to more relapses/lesions; two larger follow-ups find no association. NMSS: unclear.
 - **Cognition review (2026):** reports processing-speed improvements from Wahls/Swank studies but the authors explicitly caution that inconsistent designs and limited high-quality evidence "undermine strong recommendations."
 
 ## Sources
 
-- Swank R.L. & Dugan B.B. (1990). "Effect of low saturated fat diet in early and late cases of multiple sclerosis." *The Lancet*, 336(8706), 37–39 (characterized via peer-reviewed review, not read in full text).
+- Swank R.L. & Dugan B.B. (1990). "Effect of low saturated fat diet in early and late cases of multiple sclerosis." *The Lancet*, 336(8706), 37–39 (PMID 1973220). Characterization verified against the NLM primary abstract 2026-10-04 (144 patients, 34 years, ≤20 g/day vs >20 g/day, 95% of minimal-disability adherers survived and remained active excluding non-MS deaths); full text paywalled at thelancet.com. The Snetselaar et al. review remains the corrective for the design limitations.
 - Wahls T.L. et al. (2021). "Impact of the Swank and Wahls elimination dietary interventions on fatigue and quality of life in relapsing-remitting multiple sclerosis: The WAVES randomized parallel-arm clinical trial." *Mult Scler J Exp Transl Clin* (PMC8326636).
 - Bisht B. et al. (2014). Multimodal pilot in secondary progressive MS (*J Altern Complement Med*; n=10 completing).
 - Bisht B. et al. (2015). Multimodal pilot extension (n=20 progressive MS).
@@ -88,5 +89,5 @@ Created by physician Terry Wahls (who has secondary-progressive MS). The WahlsEl
 - National MS Society, "Dietary Studies in Multiple Sclerosis" (nationalmssociety.org).
 - James E. et al. (2013). Vitamin D-related interventions and MS relapses: meta-analysis of 5 small RCTs. *Mult Scler*.
 - 2021 meta-analysis (PMC8223916): vitamin D, relapse rate, disability — null.
-- *Brain and Behavior* systematic review (Sept 2026): inconsistent evidence; high-dose not supported for disease modification.
-- Meta-analysis of 32 RCTs (June 2026): long-term vitamin D and relapse risk.
+- *Brain and Behavior* systematic review (Sept 2026): Hall et al., "Vitamin D Supplementation and its Effect on Relapse Frequency and MRI Activity in Adults With Multiple Sclerosis: A Systematic Review," *Brain Behav* 2026;16(8), DOI 10.1002/brb3.71692 — 11 primary studies, narrative synthesis; "does not consistently reduce relapse rates"; "Current data does not support vitamin D as a disease-modifying therapy beyond correction of deficiency." Verified from the PubMed abstract 2026-10-04.
+- Network meta-analysis of 32 RCTs (June 2026): "Vitamin D for multiple sclerosis as an adjuvant therapy: A network meta-analysis of randomized controlled trials," *Clin Nutr* 2026, PMID 42242131, DOI 10.1016/j.clnu.2026.106692 — 32 RCTs, n=2,254; long-term vitamin D: relapse RR 0.80, EDSS MD −0.22; high-dose long-duration: relapse RR 0.76 (95% CI 0.59–0.98), EDSS MD −0.28. Verified from the PubMed abstract 2026-10-04.

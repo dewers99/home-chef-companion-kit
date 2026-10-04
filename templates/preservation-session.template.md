@@ -1,6 +1,6 @@
 # Preservation Session Log
 
-**Home Chef Companion Kit v1.1.2 — template.**
+**Home Chef Companion Kit — template.**
 Fill one copy per canning, freezing, dehydrating, or fermentation batch. Keep these logs — they are how you prove a batch was done by the book.
 
 > **Before you start a canning session:** confirm the recipe is a **tested recipe** (USDA / NCHFP / current state-extension source) and record its source below. The companion never improvises a canning recipe or approves a swap.

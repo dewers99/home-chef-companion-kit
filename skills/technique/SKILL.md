@@ -1,6 +1,6 @@
 # technique — Home Chef Companion Kit
 
-**Version:** 1.1.2
+**Version:** 1.1.3
 **Description:** Stocks and broths done honestly, yeast and proofing by the numbers, and sourdough taught by reading the dough — not the clock.
 
 ---
@@ -238,3 +238,9 @@ clock.
 - "Bone broth: health food or marketing?" → collagen claims, graded honestly
 - "How do I store leftover stock?" → fridge/freezer times + freezing methods
 - "I over-proofed my dough — is it ruined?" → over-proofed rescue
+
+---
+
+## Sources
+
+- Yeast temperature specs: Red Star Yeast (redstaryeast.com, manufacturer primary) — active dry: bloom in 110–115°F water; instant: blend with dry ingredients, add liquid ~120°F (printed package range 120–130°F); yeast dies at ~140°F ("After about 5 minutes, when the dough reaches 140ºF, the yeast is killed"). ADY ↔ instant substitutes 1:1 by weight. Verified 2026-10-04.

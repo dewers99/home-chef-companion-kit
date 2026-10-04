@@ -1,6 +1,6 @@
 # kitchen-math — Home Chef Companion Kit
 
-**Version:** 1.1.2
+**Version:** 1.1.3
 **Description:** Grams-first conversions, the three real cups, pan-size and yield-scaling rules, altitude adjustments, and measurement-technique guidance for everyday home cooking.
 
 ---
@@ -308,3 +308,10 @@ just follow the high-altitude directions printed on the box.)
 - "What temp is Gas Mark 4 in Fahrenheit?" → temperature table
 - "I want to double this." → scaling rules
 - "The recipe says 2 pints — how much is that?" → ladder + pint trap warning
+
+---
+
+## Sources
+
+- Altitude / boiling-point guidance: New Mexico State University Extension, Guide E-215 ("High Altitude Baking and Cooking") — ~1°F drop per 500-ft elevation gain; CSU Extension, "High Altitude Food Preparation" (Jefferson County). Verified 2026-10-04.
+- Gas Mark conversions: standard chart values; Gas Mark 3 = 325°F = 160°C derived arithmetically (325°F = 162.8°C; 160 is the correct chart rounding — some UK charts printing 170°C are wrong).

@@ -1,6 +1,6 @@
 # recipe-delivery
 
-**Version:** 1.1.2
+**Version:** 1.1.3
 **Description:** Recipes served three ways — full on-screen, printable checklist, or a step-by-step cook-along.
 
 ---

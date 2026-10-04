@@ -1,4 +1,4 @@
-# Named-Diet Evidence Tables — Home Chef Companion Kit v1.1.2
+# Named-Diet Evidence Tables — Home Chef Companion Kit v1.1.3
 
 **Reference appendix.** Consulted only when the user asks for the evidence behind a claim. Evidence grades: **A** = strong RCT / consistent meta-analysis · **B** = consistent observational · **C** = preliminary, small, or short-term · **D** = contested or insufficient. Contradictions are flagged, not resolved.
 
@@ -107,16 +107,16 @@ WW's Points formula is proprietary and unpublished; officially, protein, fiber, 
 ## Sources
 
 - Estruch R. et al. — PREDIMED teachings review, *Adv Nutr* 2014 (PMC4013190); trial republication *N Engl J Med* 2018.
-- VA HSR&D Management eBrief no. 104 (2026) — Benefits and Harms of the Mediterranean Diet.
-- 2025 meta-analysis, 26 RCTs, Mediterranean in overweight/obesity — PMID 39783962.
+- VA HSR&D Management eBrief no. 104 (2026) — Benefits and Harms of the Mediterranean Diet Compared to Other Diets (hsrd.research.va.gov; verified 2026-10-04): PREDIMED "the only large randomized controlled trial that tested the effects of an intensive Mediterranean diet on clinical outcomes" — 30% fewer major CV events; three smaller secondary-prevention RCTs: fewer new MIs, no reduction in CV death or stroke; PREDIMED breast-cancer reduction in the olive-oil arm only (women); no RCT evidence of reduced cancer recurrence/mortality.
+- "Effect of Mediterranean Diets on Cardiovascular Risk Factors and Disease in Overweight and Obese Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials," PMID 39783962, DOI 10.1080/27697061.2024.2440051 — 26 RCTs, n=10,352; GRADE very low for most outcomes; 85% of trials with bias concerns; reduced BMI, waist, triglycerides, fatty-liver index. Verified via PubMed abstract 2026-10-04.
 - Gardner C.D. et al., *Circulation* 2023 — "Popular Dietary Patterns: Alignment With American Heart Association 2021 Dietary Guidance."
 - Cochrane review CD013334 — low-carbohydrate vs. balanced-carbohydrate weight-reducing diets.
 - Kirkpatrick C.F. et al., NLA scientific statement on low/very-low-carbohydrate diets, *J Clin Lipidol* 2019;13:689–711.
 - Snorgaard O. et al., low-carb vs. high-carb in type 2 diabetes meta-analysis, *Diabetologia* 2017.
 - Iatan I. et al., low-carbohydrate/high-fat pattern and incident MACE, UK Biobank — PMC11287001 (2024).
 - Manzel A. et al., paleo for metabolic syndrome systematic review, *Am J Clin Nutr* 2015 (PMC4588744).
-- 2026 GRADE-assessed paleo meta-analysis (19 RCTs + 12 cohorts; PMID 41129328).
-- Lietz A., Dapprich J., Fischer T., carnivore scoping review, *Nutrients* 2026;18(2):348 (PMID 41599961).
+- "The Paleolithic diet and chronic disease risk: a GRADE-assessed systematic review and dose-response meta-analysis of prospective cohort studies and randomized controlled trials," *Crit Rev Food Sci Nutr*, PMID 41129328, DOI 10.1080/10408398.2025.2576815 — 19 RCTs + 12 cohorts; RCTs: improved fasting insulin, total/LDL cholesterol, triglycerides, weight, BMI, diastolic BP; cohorts: 10% lower all-cause mortality, 10% lower cancer mortality, 16% lower CHD incidence (observational). Verified via PubMed abstract 2026-10-04.
+- Lietz A., Dapprich J., Fischer T., "Carnivore Diet: A Scoping Review of the Current Evidence, Potential Benefits and Risks," *Nutrients* 2026;18(2):348, PMID 41599961, PMCID PMC12845189 — 9 human studies (5 case reports/series, 2 social-media surveys, 1 exploratory, 1 modeling); "may offer short-term health benefits but carries substantial risks… At this time, long-term adherence to a CD cannot be recommended." Verified via PubMed abstract 2026-10-04.
 - Lennerz B.S. et al., carnivore social-media survey, *Curr Dev Nutr* 2021 (n=2,029).
 - IARC Monographs: red meat Group 2A, processed meat Group 1 (Press Release 240, 26 Oct 2015).
 - Raj et al., *Vegetarian Dietary Patterns for Adults: A Position Paper of the Academy of Nutrition and Dietetics*, *J Acad Nutr Diet* 2025.

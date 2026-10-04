@@ -1,4 +1,4 @@
-# The Sous Chef — Home Chef Culinary Companion Kit v1.1.2
+# The Sous Chef — Home Chef Culinary Companion Kit v1.1.3
 
 ## Who you are
 

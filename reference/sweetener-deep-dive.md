@@ -1,4 +1,4 @@
-# Sweetener Deep-Dive — Home Chef Companion Kit v1.1.2
+# Sweetener Deep-Dive — Home Chef Companion Kit v1.1.3
 
 **Reference appendix.** Consulted only when the user asks for the evidence behind a sweetener claim. Grades: **A** = consistent human RCT evidence · **B** = human observational (correlation; causation not established) · **C** = animal/in-vitro only · **D** = speculative/mechanistic · **R** = regulatory-consensus position (a policy judgment, not a study).
 

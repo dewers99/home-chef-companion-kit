@@ -1,4 +1,4 @@
-# My Kitchen Profile — Home Chef Culinary Companion Kit v1.1.2
+# My Kitchen Profile — Home Chef Culinary Companion Kit
 
 _This is your profile — you keep it in your own space (for example a `kitchen-logs/`
 folder). It works on any AI platform: no accounts, no memory features needed. Your

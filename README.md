@@ -80,4 +80,4 @@ time — you don't have to wait for the offer.
 
 ---
 
-**Version:** 1.1.2 · **License:** see LICENSE
+**License:** see LICENSE

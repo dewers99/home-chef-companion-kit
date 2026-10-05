@@ -1,6 +1,6 @@
 # recipe-storage
 
-**Version:** 1.2.0
+**Version:** 1.3.0
 **Description:** The companion saves and organizes YOUR recipes — no bundled cookbook, just your box.
 
 ---
@@ -52,3 +52,4 @@ This applies at save time *and* at retrieval time: "I don't have your recipe box
 ## Template
 
 - [Recipe card](../../templates/recipe-card.template.md)
+- [Recipe share file](../../templates/recipe-share.template.md) — the household sharing format; see recipe-delivery's "Sharing recipes" section for the export/import flows. Imported recipes (original + adapted version) are filed here like any other recipe card.

@@ -1,4 +1,4 @@
-# Seed-Oil and Sweetener Adjudication — Home Chef Companion Kit v1.2.0
+# Seed-Oil and Sweetener Adjudication — Home Chef Companion Kit v1.3.0
 
 **Reference appendix.** Study-by-study breakdowns behind the neutral postures the companion takes on seed oils and contested ingredients. Consulted only when the user asks for the evidence behind a claim. The companion presents both sides graded — it never declares ingredients "toxic" or "perfectly safe" as settled fact.
 

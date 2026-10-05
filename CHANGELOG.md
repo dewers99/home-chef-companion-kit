@@ -4,6 +4,15 @@
 
 (nothing yet)
 
+## [1.3.0] — 2026-10-04
+
+- **Household recipe sharing.** The companion can now export any recipe as a share file and import share files from household members, with adaptations tailored to the recipient.
+- **New template:** `templates/recipe-share.template.md` — the share contract: YAML frontmatter (author, tested date, servings, diet-fit, equipment, license, version) over a clean markdown recipe body. schema.org/Recipe property names where they exist (`recipeYield`, `recipeCuisine`, `suitableForDiet`); kit extensions where they don't (`diet_fit` for keto/low-carb, which the schema.org diet enumeration doesn't cover; `oven_notes`; `rejected`). `license` defaults to `household-only`.
+- **Recipe-delivery skill:** new "Sharing recipes (household)" section. Export fills the share template from the recipe card + profile and asks about forwarding (default household-only); oven notes carry raw tested facts, never diagnoses. Import is adaptive: the companion summarizes the incoming recipe, diffs it against the recipient's profile across equipment, servings, diet conflicts, and household preferences ("who you're feeding"), and proposes a "your kitchen's version" — each adaptation individually declinable. The shared original is never rewritten; on full decline the original is filed as-is. Deeper dimensions (pantry gaps, skill calibration, time-budget, seasonal) spec'd as follow-ups.
+- **Recipe-storage skill:** template list now points at the share template; imported recipes (original + adapted version) file like any other card.
+- **INSTALL.md:** honest-limits note on sharing — the kit generates the file, the user hands it over; no companion-to-companion channel.
+- Origin: Daniel's 2026-10-04 decision to define proper sharing after the live-install fathead-pizza share with Trish; share-contract research verified against primary sources (schema.org/Recipe; audit caught and fixed a `suitableForDiet` omission before build).
+
 ## [1.2.0] — 2026-10-04
 
 - **Cook-session logging + feedback loop.** The companion now actively maintains a session log during cooks instead of relying on transcript memory.

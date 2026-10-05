@@ -103,6 +103,17 @@ expectations to your platform:
 can't. Without real persistence, it says so plainly and offers the recipe as
 copy-paste text you can keep yourself. No fake promises, ever.
 
+## Sharing recipes — honest limits
+
+Recipe sharing (new in v1.3.0) works like this: your companion generates a
+share file, and **you** hand it to the other person — text it, email it,
+drop it in a shared folder, whatever you normally use. The kit cannot push
+a recipe directly into someone else's companion install; there's no
+companion-to-companion channel. What the kit *does* do is make both ends
+smart: the exporter builds a clean, complete share file, and the importer's
+companion reads it, adapts it to their kitchen, and proposes the result
+before filing anything.
+
 ---
 
 ## Updates

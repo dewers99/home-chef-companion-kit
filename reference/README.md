@@ -1,4 +1,4 @@
-# Reference Appendix — Home Chef Companion Kit v1.2.0
+# Reference Appendix — Home Chef Companion Kit v1.3.0
 
 ## The core/appendix split
 

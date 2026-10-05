@@ -1,7 +1,7 @@
 # recipe-delivery
 
-**Version:** 1.2.0
-**Description:** Recipes served three ways — full on-screen, printable checklist, or a step-by-step cook-along.
+**Version:** 1.3.0
+**Description:** Recipes served three ways — full on-screen, printable checklist, or a step-by-step cook-along. Plus household recipe sharing: export a share file, or import one with adaptations tailored to the recipient's kitchen.
 
 ---
 
@@ -44,3 +44,52 @@ One step at a time. The companion:
 6. **After the cook**, review the session log (templates/cook-session.template.md) for anything worth remembering ("your oven runs hot," "we halved the salt and liked it") — and asks before adding it to the profile or recipe notes. The log is the source, not recollection. Cooking first, bookkeeping after.
 7. **Maintain the cook-session log during the cook** — ingredients with brands, equipment, adjustments with reasons, actual timing. The log is the working memory; the transcript is not enough for a long session. Record timing observations without diagnosing the oven from a single bake.
 8. **When the recipe has evolved significantly** (3+ modifications since the last full listing, or a structural change like scaling), proactively offer a consolidated ingredient/method snapshot — don't wait to be asked.
+
+## Sharing recipes (household)
+
+The companion can export any recipe as a **share file** and import share files from other household members. The format is [recipe-share.template.md](../../templates/recipe-share.template.md): YAML frontmatter (machine-readable: author, tested date, servings, diet-fit, equipment, license) over a clean markdown recipe body (human-readable, no kit jargon — a non-kit recipient reads it as a normal recipe).
+
+### Exporting — "share this recipe"
+
+1. The user names a recipe (from the recipe box, a session log, or the current conversation).
+2. The companion fills the share template from the recipe card and the user profile: author from the profile, tested date from the recipe or the latest session log.
+3. **Ask about forwarding** before generating: "This will be marked household-only — okay if they pass it on, or keep it between you?" Default is household-only; the companion prompts before any share leaves the household.
+4. **Record, don't diagnose, in the export.** The `oven_notes` field carries raw tested facts (temps, times, rack position) — never a conclusion like "our oven runs hot." The importing side adapts from facts.
+5. Deliver the file per the platform's capability (see recipe-storage's platform-honesty rule): as a file where the platform supports it, as copy-paste text where it doesn't.
+
+### Importing — "here's a recipe from ___"
+
+An imported recipe is a **living recipe**: the companion doesn't just file it — it reads the share file, compares it against the recipient's own profile, and proposes adaptations tailored to their kitchen, themselves, and who they're feeding. The user can decline any or all of it and keep the recipe as-is.
+
+**Core principles:**
+
+- **The shared original stays sacred.** Import creates "your kitchen's version" as a layer on top of the canonical shared recipe — never a rewrite. This prevents drift when recipes get shared back and forth.
+- **Propose, don't impose.** Every adaptation is offered; "keep it as-is" is always available. This extends the kit's propose-before-write rule to recipe content.
+- **Import handles structure; first cook handles finesse.** Equipment swaps, serving scaling, diet conflicts, and household preferences are proposed at import (when the user decides whether to keep it). Fine-tuning waits for the first cook, where the v1.2.0 feedback loop continues the recipe's evolution.
+
+**The import flow:**
+
+1. Read the share file's frontmatter.
+2. Summarize what arrived: name, diet-fit, tested date, servings, author.
+3. Diff against the recipient's profile across four dimensions:
+   - **Equipment** — "This calls for a wire-mesh pan; you have a sheet pan — here's the adjustment."
+   - **Servings** — "This serves 4; your household is 2 — want me to scale it?"
+   - **Diet conflicts** — "This has sugar; you're keto — here are the tested swaps."
+   - **Household preferences** — who you're feeding: the eaters in the profile and their restrictions ("Trish doesn't like tang — this has balsamic; suggest skipping").
+4. Present the original alongside the proposed "your kitchen's version," each adaptation explained and individually declinable.
+5. On accept: file **both** the canonical original and the adapted version in the recipe box; propose profile updates (new equipment, new pantry items) per the existing propose-before-write rule — never auto-write.
+6. On decline (any or all): file the original as-is. No residue, no hard feelings.
+7. If the recipe box already has a recipe with the same name: keep both (version suffix on the new one) and propose — never silently overwrite.
+
+**If the share file is malformed** (missing frontmatter, unreadable fields): say so plainly, show what could be recovered, and offer to reconstruct the recipe from the body text alone — don't guess at the missing metadata.
+
+<!-- Proposed follow-ups (not v1 — spec'd here so they aren't lost):
+     - Pantry-gap check: cross-reference ingredients against the pantry
+       profile; surface what's missing with an offer to build the shopping list.
+     - Skill-level calibration: expand terse steps for beginners, stay terse
+       for advanced cooks, drawn from the profile's skill-level field.
+     - Time-budget fitting: compare total time against the user's weeknight/
+       weekend patterns; flag or offer a weeknight version.
+     - Seasonal/availability notes: apply known swaps (fresh → dried herbs
+       out of season) from the user's tested history.
+     These belong in the import diff (step 3) when built. -->

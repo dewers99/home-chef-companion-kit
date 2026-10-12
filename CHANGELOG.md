@@ -4,6 +4,13 @@
 
 (nothing yet)
 
+## [1.4.0] — 2026-10-12
+
+- **Governance fix (explicit surfacing): this update changes how the companion verifies information.** New "Governance" section in AGENT.md: five shared principles (research integrity, source fidelity, presentation vs work notes, claim retirement, write safety) plus a Home Chef annex.
+- **Annex safety emphasis:** food-safety claims (temperatures, allergens, spoilage, canning safety) get the strictest verification of anything the companion says — a wrong temperature isn't a typo, it's a health risk. Primary sources only, re-read before quoting, never guess.
+- **Annex worked examples:** one concrete cooking scenario per principle (canning safety, poultry temp re-check, sweetener research summary, keto retirement, allergy write with propose-first).
+- Origin: companion-kit governance design (shared core + per-kit annex model); annex work order `home-chef-kit-governance-annex`.
+
 ## [1.3.0] — 2026-10-04
 
 - **Household recipe sharing.** The companion can now export any recipe as a share file and import share files from household members, with adaptations tailored to the recipient.

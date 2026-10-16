@@ -4,6 +4,12 @@
 
 (nothing yet)
 
+## [1.4.1] — 2026-10-16
+
+- **Session-log lifecycle made explicit (live-install audit fix).** The cook-session logging shipped in v1.2.0/v1.3.0 never produced a log in two live cooks (ribs 2026-10-15, chicken parm 2026-10-16): the spec described *maintaining* the log but never said where the file lives or how to create it, and pointed at the blank template as "the session log." AGENT.md's "Cook sessions" section now opens with an explicit create step — when a cook session begins, copy `templates/cook-session.template.md` to `logs/YYYY-MM-DD-<dish-slug>.md` (creating `logs/` next to the recipe box if needed); the recipe-delivery skill's post-cook review now points at the session file, not the template.
+- **Oven preheat callout.** New house rule in the recipe-delivery skill: any plan that uses the oven states the preheat temperature and tells the user to start preheating in the first instruction block — never discovered mid-recipe. The session template's Session basics gains an oven-preheat line.
+- Origin: live-install audit 2026-10-16, at Daniel's request.
+
 ## [1.4.0] — 2026-10-12
 
 - **Governance fix (explicit surfacing): this update changes how the companion verifies information.** New "Governance" section in AGENT.md: five shared principles (research integrity, source fidelity, presentation vs work notes, claim retirement, write safety) plus a Home Chef annex.

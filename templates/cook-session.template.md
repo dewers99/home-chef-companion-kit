@@ -10,6 +10,7 @@ Fill one copy per cook session. This is the companion's working memory during th
 - **Date:**
 - **Dish:**
 - **Recipe source:** (user's own / companion-developed / external — name it)
+- **Oven preheat:** (temperature + when started, if the plan uses the oven)
 
 ## Timing agreement (asked at the START of the cook)
 

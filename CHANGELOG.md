@@ -4,6 +4,11 @@
 
 (nothing yet)
 
+## [1.4.3] — 2026-10-21
+
+- **Kit bookkeeping no longer needs a proposal (live-install friction fix).** When v1.4.2 was adopted, the companion asked permission to stamp the new kit version into the profile — a write its own update procedure requires, blocked only by the write-safety rule's blanket propose-first. Write safety now carves out kit bookkeeping (the kit version stamp, last-update-check date, and update-history lines recorded at adoption): written directly as part of applying a verified update, never proposed. The update-checking section says so explicitly. Personal data — preferences, equipment, household notes, allergies — and the recipe box remain propose-first.
+- Origin: Daniel's ruling 2026-10-21 — the version stamp is a fact about the kit, not personal information.
+
 ## [1.4.2] — 2026-10-18
 
 - **Reminder reliability guardrails (live-install audit fix).** The 2026-10-18 audit found two failure modes in cook check-ins: a promised 11:30 parm uncover with no backing reminder, and a 4:40 chuck-roast reminder that was "delivered" to the main chat instead of the live cook chat (the cron carried no delivery target, so the scheduler defaulted). New recipe-delivery house rules: (10) back every check-in promise with a real reminder in the same turn — no bare promises; (11) every cook reminder names its chat explicitly, never relying on a default target; (12) confirm the reminder to the user when it's set, so a silent failure becomes noticeable.

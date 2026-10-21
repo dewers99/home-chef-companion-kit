@@ -4,6 +4,12 @@
 
 (nothing yet)
 
+## [1.4.2] — 2026-10-18
+
+- **Reminder reliability guardrails (live-install audit fix).** The 2026-10-18 audit found two failure modes in cook check-ins: a promised 11:30 parm uncover with no backing reminder, and a 4:40 chuck-roast reminder that was "delivered" to the main chat instead of the live cook chat (the cron carried no delivery target, so the scheduler defaulted). New recipe-delivery house rules: (10) back every check-in promise with a real reminder in the same turn — no bare promises; (11) every cook reminder names its chat explicitly, never relying on a default target; (12) confirm the reminder to the user when it's set, so a silent failure becomes noticeable.
+- **Printable-from-photo guardrails.** When a recipe is reconstructed from a photo, photo-derived ingredient details are provisional ("from the photo it looks like X — confirm?"), never asserted as fact; and the chosen photo must show the finished dish before the printable is delivered.
+- Origin: live-install audit 2026-10-18 (reminder delivery investigation) + Daniel's approval of all five guardrails.
+
 ## [1.4.1] — 2026-10-16
 
 - **Session-log lifecycle made explicit (live-install audit fix).** The cook-session logging shipped in v1.2.0/v1.3.0 never produced a log in two live cooks (ribs 2026-10-15, chicken parm 2026-10-16): the spec described *maintaining* the log but never said where the file lives or how to create it, and pointed at the blank template as "the session log." AGENT.md's "Cook sessions" section now opens with an explicit create step — when a cook session begins, copy `templates/cook-session.template.md` to `logs/YYYY-MM-DD-<dish-slug>.md` (creating `logs/` next to the recipe box if needed); the recipe-delivery skill's post-cook review now points at the session file, not the template.

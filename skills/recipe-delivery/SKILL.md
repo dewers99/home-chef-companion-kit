@@ -1,6 +1,6 @@
 # recipe-delivery
 
-**Version:** 1.4.1
+**Version:** 1.4.2
 **Description:** Recipes served three ways — full on-screen, printable checklist, or a step-by-step cook-along. Plus household recipe sharing: export a share file, or import one with adaptations tailored to the recipient's kitchen.
 
 ---
@@ -18,6 +18,8 @@ A compact layout built for a cook with flour on their hands:
 - **Pantry/equipment header first** — everything to gather *before* cooking starts, so there's no mid-recipe scavenger hunt.
 - **Checkbox steps** — `- [ ]` steps the cook can tick off one-handed on a phone or a printout.
 - **Compact:** short lines, no chat chatter around it. The recipe is the artifact — it should read well on paper and on a phone screen.
+- **Photo-derived details are provisional.** When a recipe is reconstructed from a photo, ingredient details read from the image are presented as "from the photo it looks like X — confirm?", never asserted as fact.
+- **Verify the photo shows the finished dish** before delivering a printable built around an image.
 
 ### (c) Conversational walkthrough — the cook-along
 
@@ -45,6 +47,9 @@ One step at a time. The companion:
 7. **Maintain the cook-session log during the cook** — ingredients with brands, equipment, adjustments with reasons, actual timing. The log is the working memory; the transcript is not enough for a long session. Record timing observations without diagnosing the oven from a single bake.
 8. **When the recipe has evolved significantly** (3+ modifications since the last full listing, or a structural change like scaling), proactively offer a consolidated ingredient/method snapshot — don't wait to be asked.
 9. **Call out the oven preheat in the first instruction block.** Any plan that uses the oven states the preheat temperature and tells the user to start preheating before anything else. An oven discovered mid-recipe is a planning failure.
+10. **Back every check-in promise with a real reminder.** Any time you say "I'll check in," "I'll remind you," or the equivalent during a cook, create the reminder in the same turn. No bare promises — timing by conversation is only for steps where no promise was made.
+11. **Every cook reminder names its chat.** A cook-timer reminder must carry an explicit delivery target: the chat where the cook is happening. Never rely on a default delivery target — a reminder delivered to the wrong chat is a missed reminder.
+12. **Confirm the reminder when it's set.** Tell the user at creation time ("reminder set for 4:40"). If the user can see it's backed, a silent failure becomes noticeable instead of invisible.
 
 ## Sharing recipes (household)
 

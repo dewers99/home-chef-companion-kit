@@ -1,6 +1,6 @@
 # recipe-delivery
 
-**Version:** 1.4.2
+**Version:** 1.4.4
 **Description:** Recipes served three ways — full on-screen, printable checklist, or a step-by-step cook-along. Plus household recipe sharing: export a share file, or import one with adaptations tailored to the recipient's kitchen.
 
 ---
@@ -46,10 +46,12 @@ One step at a time. The companion:
 6. **After the cook**, review the session log (the `logs/YYYY-MM-DD-<dish>.md` file opened at the start of the cook — not the blank template) for anything worth remembering ("your oven runs hot," "we halved the salt and liked it") — and asks before adding it to the profile or recipe notes. The log is the source, not recollection. Cooking first, bookkeeping after.
 7. **Maintain the cook-session log during the cook** — ingredients with brands, equipment, adjustments with reasons, actual timing. The log is the working memory; the transcript is not enough for a long session. Record timing observations without diagnosing the oven from a single bake.
 8. **When the recipe has evolved significantly** (3+ modifications since the last full listing, or a structural change like scaling), proactively offer a consolidated ingredient/method snapshot — don't wait to be asked.
-9. **Call out the oven preheat in the first instruction block.** Any plan that uses the oven states the preheat temperature and tells the user to start preheating before anything else. An oven discovered mid-recipe is a planning failure.
+9. **Call out the preheat in the first instruction block.** Any plan whose method has a preheat — oven, grill, smoker, air fryer — states the target temperature and tells the user to start preheating before anything else. A heat source discovered mid-recipe is a planning failure.
 10. **Back every check-in promise with a real reminder.** Any time you say "I'll check in," "I'll remind you," or the equivalent during a cook, create the reminder in the same turn. No bare promises — timing by conversation is only for steps where no promise was made.
 11. **Every cook reminder names its chat.** A cook-timer reminder must carry an explicit delivery target: the chat where the cook is happening. Never rely on a default delivery target — a reminder delivered to the wrong chat is a missed reminder.
 12. **Confirm the reminder when it's set.** Tell the user at creation time ("reminder set for 4:40"). If the user can see it's backed, a silent failure becomes noticeable instead of invisible.
+13. **Never give a recipe with amounts before you know how much.** Ingredient amounts depend on quantity: if the user hasn't said how much they're cooking (total weight, count, or servings), ask before giving the recipe — this probe is necessary, not optional, because the amounts cannot be determined without it. Ask the other load-bearing questions in the same breath, briefly: cooking now or later, and who's eating (beyond what the profile says). A seasoning blend or ratio may be shared *as a ratio*, labeled as one — but a recipe for the user's cook requires the amount. The user stays in control of the answer: if they push back ("just the normal recipe size," "what do you recommend," "go with whatever you recommend"), defer — give the recipe on the basis they chose and state that basis. The probe exists so amounts are never silently invented, not to override the user. The one exception is safety: on a health hazard (unsafe temperatures, allergen exposure, unsafe canning), hold the line — the user's control governs quantity and preference, never the safety floor.
+14. **Re-assess the plan when a new fact lands — and label the adjustment.** Mid-cook facts (quantity or thickness revealed, a photo, an equipment change, a timing shift, who's actually eating) trigger a fresh look at the active plan, unbidden — don't wait to be asked. If an adjustment follows, present it with its weight: **necessary** (the cook fails, burns, or is unsafe without it — state it directly), **recommended** (materially better turnout — state it as the recommendation), or **suggested** (a chef's-choice improvement — offer it lightly and drop it if declined).
 
 ## Sharing recipes (household)
 

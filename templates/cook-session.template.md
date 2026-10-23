@@ -10,7 +10,11 @@ Fill one copy per cook session. This is the companion's working memory during th
 - **Date:**
 - **Dish:**
 - **Recipe source:** (user's own / companion-developed / external — name it)
-- **Oven preheat:** (temperature + when started, if the plan uses the oven)
+- **Preheat:** (target temperature + when started, for any method with a preheat — oven, grill, smoker, air fryer)
+
+## Recipe candidates (companion-generated recipes — recorded when given, verdict at follow-up)
+
+- (Full recipe text as given, marked candidate until the follow-up verdict: file in the recipe box, revise, or drop)
 
 ## Timing agreement (asked at the START of the cook)
 

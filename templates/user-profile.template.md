@@ -120,5 +120,6 @@ update check finds an update._
 - Install date:
 - Update check cadence: _weekly (default) / monthly / off — set later_
 - Auto-apply updates: _yes / ask me first — set later_
+- Next update check due:
 - Last update check:
 - Update history: _version + date + one-line note of what changed_

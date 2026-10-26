@@ -126,6 +126,8 @@ changed — never a silent apply, never "trust me." You decide.
 **URL-installed kits:** if your companion re-fetches the kit from its link
 every session, it's already current — no update check needed.
 
+**Your own data is never part of an update.** Updates change the kit — your profile, your recipe box, and your logs are yours and stay untouched.
+
 ## Feedback
 
 Two weeks after install, the companion will offer you an anonymous feedback

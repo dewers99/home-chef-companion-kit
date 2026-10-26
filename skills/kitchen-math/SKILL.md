@@ -1,7 +1,18 @@
-# kitchen-math — Home Chef Companion Kit
+# kitchen-math skill
 
-**Version:** 1.4.0
+**Version:** 1.4.6
 **Description:** Grams-first conversions, the three real cups, pan-size and yield-scaling rules, altitude adjustments, and measurement-technique guidance for everyday home cooking.
+
+---
+
+## When to use
+
+- "How many grams in a cup of ___?" → weight table, grams first
+- "I'm at the grocery store — will a 9×13 pan work for this 9-inch-round recipe?" → pan swaps
+- "I'm visiting my sister at 5,000 feet and bringing dessert." → altitude section
+- "What temp is Gas Mark 4 in Fahrenheit?" → temperature table
+- "I want to double this." → scaling rules
+- "The recipe says 2 pints — how much is that?" → ladder + pint trap warning
 
 ---
 
@@ -300,16 +311,11 @@ just follow the high-altitude directions printed on the box.)
 
 ---
 
-## When to reach for this skill
+## Output
+The converted amount, pan swap, or scaling the user asked for — grams first, with the friendly fallback unit alongside.
 
-- "How many grams in a cup of ___?" → weight table, grams first
-- "I'm at the grocery store — will a 9×13 pan work for this 9-inch-round recipe?" → pan swaps
-- "I'm visiting my sister at 5,000 feet and bringing dessert." → altitude section
-- "What temp is Gas Mark 4 in Fahrenheit?" → temperature table
-- "I want to double this." → scaling rules
-- "The recipe says 2 pints — how much is that?" → ladder + pint trap warning
-
----
+## Boundaries
+Conversions, swaps, and scaling only. It does not judge an ingredient's health merits (diet-adaptation and substitutions carry that) and never sets a safety temperature (food-safety).
 
 ## Sources
 

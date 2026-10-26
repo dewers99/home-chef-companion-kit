@@ -4,6 +4,15 @@
 
 (nothing yet)
 
+## [1.4.6] — 2026-10-25
+
+- **Structure alignment to the canonical companion-kit skeleton** (draye-global-docs ticket `companion-kit-structure-audit`, dec-003). Formatting and organization only — no recipe, safety, or behavior content changed, and the 1.4.5 open-loop follow-up works exactly as before.
+- **Governance (governance docs — wording, not a rule change).** The Write safety principle now reads in the canonical wording shared by every companion kit, including the kit-bookkeeping exception this kit has always applied in practice. The kit's own personal-data list — preferences, equipment, household notes, allergies, and the recipe box — now lives in the Home Chef annex, where kit-specific examples belong. The five principles are unnumbered, and the annex stands as its own section.
+- **Skill modules** take the standard anatomy: slug titles (`# meal-planning skill`), a `**Version:**` + `**Description:**` header on every module (all now at the kit version), "When to use" first, and Output + Boundaries closing each module. The two modules that carried YAML frontmatter (diet-adaptation, food-safety) now use the standard header lines.
+- **Titles cleaned up:** the intake-quiz and kitchen-profile templates no longer carry the kit name; reference-appendix titles no longer carry a version (per the standing rule, a reference states its scope in its body — the version lives in VERSION and this changelog).
+- README gains its License section; INSTALL's Updates section now states plainly that your own data is never part of an update.
+- **Citation fix (pre-publish, dec-011):** the food-safety module's grounding rule and one section heading pointed at the author's local research folders; they now cite the published primary sources the numbers rest on (USDA FSIS, FoodSafety.gov and USDA FoodKeeper, NFPA, American Red Cross and municipal fire-service guidance, the National Center for Home Food Preservation, the USDA Complete Guide to Home Canning, and university extension). No number, procedure, or safety guidance changed — only where the file says its authority comes from.
+
 ## [1.4.5] — 2026-10-25
 
 - **Open-loop follow-up (missed questions get two later reminders).** A question that needs the user's answer — a recipe-box filing offer, a profile-note proposal — is no longer treated as answered when the conversation simply moves on. Silence isn't a decline: if an offer goes unanswered (the user pivots to the next cook, the session ends), the companion notes the open loop in the session log and follows up later, when no cook is active — at the start of a new session before cooking begins, or in ordinary conversation, never mid-cook. At most two follow-ups; the second says gently that it won't ask again ("I'll stop asking after this; just say the word anytime if you'd like it done"). A decline closes the loop at any point; after the second follow-up, the companion lets it rest. Before this change, an unanswered offer died silently — the 2026-10-15 country-style ribs recipe, cooked and praised, was never filed because its filing offer went unanswered in the pivot to the next cook.

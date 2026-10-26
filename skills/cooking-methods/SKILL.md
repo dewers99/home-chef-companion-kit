@@ -1,7 +1,19 @@
-# cooking-methods — Home Chef Companion Kit
+# cooking-methods skill
 
-**Version:** 1.4.0
+**Version:** 1.4.6
 **Description:** Full method reference (appliances, stovetop, burners, smokers, grills) plus the cut-to-method reasoning rule: match the method to the muscle's lifetime workload.
+
+---
+
+## When to use
+
+- "Can I cook this cut in the slow cooker?" → cut-to-method rule + slow-cooker safety
+- "Grill or braise?" → dry vs. moist heat + the muscle's lifetime workload
+- "My pan keeps steaming instead of searing." → don't-crowd-the-pan principle
+- "My gas grill smokes less than my neighbor's charcoal." → pellet-vs-offset /
+  gas-vs-charcoal conventions, no adjudication
+- "Is my glass cooktop ruining my sauté?" → burner types
+- "When do I pull the pork shoulder?" → 195–205°F convention, probe-tender is the test
 
 ---
 
@@ -355,17 +367,11 @@ buildup regularly — inspect before each cook (Weber manual).
 
 ---
 
-## When to reach for this skill
+## Output
+A method recommendation for the cut and the equipment at hand: the primary method, the reasoning (the muscle's lifetime workload, dry vs. moist heat), and the safety notes that ride with it.
 
-- "Can I cook this cut in the slow cooker?" → cut-to-method rule + slow-cooker safety
-- "Grill or braise?" → dry vs. moist heat + the muscle's lifetime workload
-- "My pan keeps steaming instead of searing." → don't-crowd-the-pan principle
-- "My gas grill smokes less than my neighbor's charcoal." → pellet-vs-offset /
-  gas-vs-charcoal conventions, no adjudication
-- "Is my glass cooktop ruining my sauté?" → burner types
-- "When do I pull the pork shoulder?" → 195–205°F convention, probe-tender is the test
-
----
+## Boundaries
+Method reasoning only. Food-safety temperatures and storage times are never given from memory — they live in the food-safety module and its cited reference. Fuel and method debates (pellet vs. offset, gas vs. charcoal) get conventions, not adjudication.
 
 ## Sources
 

@@ -81,3 +81,7 @@ time — you don't have to wait for the offer.
 ---
 
 **License:** see LICENSE
+
+## License
+
+MIT — see `LICENSE`.

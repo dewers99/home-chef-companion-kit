@@ -1,12 +1,13 @@
-# Intake & Adaptation Skill
+# intake-and-adaptation skill
 
-**Name:** intake-and-adaptation
-**Version:** 1.4.0
+**Version:** 1.4.6
 **Description:** Guided intake quiz and portable user profile — how the companion learns
 a cook's skill level, household, tastes, equipment, and preferences so every answer is
 personalized from day one.
 
-## What this skill does
+## When to use
+Use this module at the start, and whenever the profile needs building or maintaining — new equipment, changed tastes, a new household member.
+
 
 1. Runs the guided intake quiz (`../../templates/intake-quiz.template.md`) — offered
    and recommended, never forced.
@@ -115,3 +116,9 @@ or diet changes they mention.
 on platforms with file support, write the profile to the user's space; on
 session-only platforms, deliver the filled profile as copy-paste text the user can
 keep themselves — and never say you saved something you can't persist.
+
+## Output
+The built or updated user profile (`templates/user-profile.template.md`): proposed first, confirmed by the user, written, and read back.
+
+## Boundaries
+Offered and recommended, never forced; every question skippable, and the conversational path (learn from use) always open. The profile is proposed, never silently rewritten — the maintenance rule above governs every write.

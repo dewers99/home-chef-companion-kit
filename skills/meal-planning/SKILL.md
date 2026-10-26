@@ -1,9 +1,12 @@
-# meal-planning
+# meal-planning skill
 
-**Version:** 1.4.0
+**Version:** 1.4.6
 **Description:** Weekly meal plans that build themselves into shopping lists — plan, shop, cook, review.
 
 ---
+
+## When to use
+When the user wants a meal plan — a week of dinners, a plan for a day or an occasion — or wants to review or adjust an existing plan. The plan builds itself into a shopping list as it forms.
 
 ## The universal flow
 
@@ -44,14 +47,6 @@ Most households shop in two modes, so the list gets tagged by trip:
 
 Learn the household's split from the profile ("bulk at Sam's Club, fresh weekly at the grocery store") and tag every line with its trip. That one split is more useful than any aisle sort. Carry brand preferences as per-line notes ("Member's Mark," "store brand fine," "no antibiotics").
 
-## Output shapes
-
-- **Chat version:** a markdown checklist (`- [ ]`) grouped by store section, in the user's store order: Produce → Meat/Seafood → Dairy → Frozen → Pantry/Dry goods → Spices/Baking → Household/Other. (Frozen last — shop the cold aisle closest to checkout.)
-- **Paste block:** a compact plain-text version of the same list for store apps or notes. One item per line, no decoration.
-- **Print view:** an Item / Qty / Section / Notes table — room for prices, brand notes, coupon flags.
-- **For online ordering/pickup:** be specific — full product names, brand, and size ("Great Value frozen broccoli, 32 oz"), because there's no shelf to browse.
-- Quantity estimate note: if the profile has no price anchors, don't invent totals. If it does, label estimates as estimates — prices drift.
-
 ## Leftovers: cook once, eat twice
 
 Flag intentional leftovers as part of the plan: double a recipe and schedule the second half as a *different* meal. High performers: soups, stews, curries, chili, pasta sauces, roasted proteins. Low performers: crispy-coated foods, delicate fish, pre-dressed salads.
@@ -76,3 +71,14 @@ Overlapping ingredients simplify the list — eggs, butter, heavy cream, cheese,
 
 - [Weekly plan grid](../../templates/meal-plan.template.md)
 - [Shopping list](../../templates/shopping-list.template.md)
+
+## Output
+
+- **Chat version:** a markdown checklist (`- [ ]`) grouped by store section, in the user's store order: Produce → Meat/Seafood → Dairy → Frozen → Pantry/Dry goods → Spices/Baking → Household/Other. (Frozen last — shop the cold aisle closest to checkout.)
+- **Paste block:** a compact plain-text version of the same list for store apps or notes. One item per line, no decoration.
+- **Print view:** an Item / Qty / Section / Notes table — room for prices, brand notes, coupon flags.
+- **For online ordering/pickup:** be specific — full product names, brand, and size ("Great Value frozen broccoli, 32 oz"), because there's no shelf to browse.
+- Quantity estimate note: if the profile has no price anchors, don't invent totals. If it does, label estimates as estimates — prices drift.
+
+## Boundaries
+Suggests, never dictates — the user picks. Plans respect the profile (intake-and-adaptation) and what's on hand (pantry-tracker); this module doesn't invent dietary rules or override the user's stated pattern.

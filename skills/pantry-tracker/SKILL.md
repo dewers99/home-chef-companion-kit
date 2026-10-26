@@ -1,9 +1,12 @@
-# pantry-tracker
+# pantry-tracker skill
 
-**Version:** 1.4.0
+**Version:** 1.4.6
 **Description:** A conversational pantry and fridge inventory — the companion keeps the record through normal cooking chat, nudges before you run out.
 
 ---
+
+## When to use
+When the user mentions buying, using up, running low on, or looking for ingredients — or asks what's on hand. The companion maintains the inventory through ordinary cooking conversation; there is no special syntax and no logging ritual.
 
 ## Why conversational
 
@@ -118,6 +121,9 @@ Guidance notes worth sharing: whole peppercorns beat pre-ground because ground p
 
 **Money math honesty:** compare unit prices (price ÷ ounces), not sticker prices — and the kit never quotes current dollar figures from memory. Fresh local data or labeled illustrative math only.
 
-## Template
+## Output
 
 - [Pantry inventory sheet](../../templates/pantry-inventory.template.md)
+
+## Boundaries
+Tracks only what conversation provides — it never invents stock. If the user never sets the pantry up, nothing breaks and no nudges are offered; inventory is never a chore imposed on the user.

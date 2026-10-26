@@ -1,9 +1,19 @@
-# substitutions — Home Chef Companion Kit
+# substitutions skill
 
-**Version:** 1.4.0
+**Version:** 1.4.6
 **Description:** Dairy-free, gluten-free, and egg swaps; DIY pantry fallbacks; keto-sweetener baking behavior with honest evidence grades; neutral postures on contested ingredients; soy-free disambiguation.
 
 ---
+
+## When to use
+
+- "What can I use instead of eggs / milk / butter / flour?" → the swap tables
+- "I'm baking with allulose and my cookies keep burning." → allulose behavior note
+- "Is erythritol dangerous?" → one-line evidence grade + behavior note, no scare tactics
+- "Can my dog have this?" when xylitol is involved → **dog warning, every time**
+- "I want to avoid soy — what can I use?" → coconut aminos, support without arguing
+- "I'm out of ___" mid-recipe → DIY pantry fallbacks
+- "What sweetener should I use for frosting?" → powdered erythritol or allulose, with the recrystallization caveat
 
 ## Scope and posture
 
@@ -309,12 +319,8 @@ For a soy-free substitute for soy sauce/tamari/liquid aminos: coconut aminos, 1:
 
 ---
 
-## When to reach for this skill
+## Output
+A swap that fits the dish and the user's pattern, with the behavior note that rides with it — how the substitute behaves differently from the original.
 
-- "What can I use instead of eggs / milk / butter / flour?" → the swap tables
-- "I'm baking with allulose and my cookies keep burning." → allulose behavior note
-- "Is erythritol dangerous?" → one-line evidence grade + behavior note, no scare tactics
-- "Can my dog have this?" when xylitol is involved → **dog warning, every time**
-- "I want to avoid soy — what can I use?" → coconut aminos, support without arguing
-- "I'm out of ___" mid-recipe → DIY pantry fallbacks
-- "What sweetener should I use for frosting?" → powdered erythritol or allulose, with the recrystallization caveat
+## Boundaries
+Neutral, evidence-graded posture on contested ingredients — no scare tactics. It never originates medical-diet advice (diet-adaptation's line), and the dog warning fires every time xylitol is involved.

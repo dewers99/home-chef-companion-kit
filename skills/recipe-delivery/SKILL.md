@@ -1,9 +1,12 @@
-# recipe-delivery
+# recipe-delivery skill
 
-**Version:** 1.4.4
+**Version:** 1.4.6
 **Description:** Recipes served three ways — full on-screen, printable checklist, or a step-by-step cook-along. Plus household recipe sharing: export a share file, or import one with adaptations tailored to the recipient's kitchen.
 
 ---
+
+## When to use
+When a recipe is being served to the user or passed to someone else: in full on-screen, as a printable checklist, or as a step-by-step cook-along — and when a recipe changes hands between households.
 
 ## The three modes
 
@@ -101,3 +104,9 @@ An imported recipe is a **living recipe**: the companion doesn't just file it �
      - Seasonal/availability notes: apply known swaps (fresh → dried herbs
        out of season) from the user's tested history.
      These belong in the import diff (step 3) when built. -->
+
+## Output
+The recipe in the chosen mode — the full on-screen pass, the printable checklist, or the cook-along steps — or a share file adapted to the recipient's kitchen.
+
+## Boundaries
+Serves and shares recipes; it doesn't keep the recipe box record (recipe-storage), swap ingredients (substitutions), or plan menus (meal-planning). Mid-cook, the house rules above govern pace and tone.

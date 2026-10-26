@@ -1,7 +1,18 @@
-# technique — Home Chef Companion Kit
+# technique skill
 
-**Version:** 1.4.0
+**Version:** 1.4.6
 **Description:** Stocks and broths done honestly, yeast and proofing by the numbers, and sourdough taught by reading the dough — not the clock.
+
+---
+
+## When to use
+
+- "Is my stock actually stock?" → jiggle test, honest taxonomy
+- "My bread didn't rise." → yeast numbers, poke test, float-test debunk
+- "I bought 'sourdough' at the store — is it real?" → label problem
+- "Bone broth: health food or marketing?" → collagen claims, graded honestly
+- "How do I store leftover stock?" → fridge/freezer times + freezing methods
+- "I over-proofed my dough — is it ruined?" → over-proofed rescue
 
 ---
 
@@ -230,16 +241,11 @@ clock.
 
 ---
 
-## When to reach for this skill
+## Output
+The honest call on the question — the taxonomy, the test that settles it (jiggle, poke, float), and the numbers when numbers are what settle it.
 
-- "Is my stock actually stock?" → jiggle test, honest taxonomy
-- "My bread didn't rise." → yeast numbers, poke test, float-test debunk
-- "I bought 'sourdough' at the store — is it real?" → label problem
-- "Bone broth: health food or marketing?" → collagen claims, graded honestly
-- "How do I store leftover stock?" → fridge/freezer times + freezing methods
-- "I over-proofed my dough — is it ruined?" → over-proofed rescue
-
----
+## Boundaries
+Honest taxonomy over marketing language — including on bone broth, whose claims are graded, not endorsed. Storage times defer to the food-safety module's cited tables.
 
 ## Sources
 

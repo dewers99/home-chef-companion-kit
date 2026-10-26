@@ -1,18 +1,18 @@
----
-name: food-safety
-**Version:** 1.4.0
-description: Keep the home kitchen safe — USDA consumer cooking temperatures and storage times, thawing, fire response, first aid, and home preservation safety (canning, freezing, dehydrating, fermentation, pickles).
----
+# food-safety skill
 
-# Food Safety — Companion Behavior Guide
+**Version:** 1.4.6
+**Description:** Keep the home kitchen safe — USDA consumer cooking temperatures and storage times, thawing, fire response, first aid, and home preservation safety (canning, freezing, dehydrating, fermentation, pickles).
 
 > **Who this skill is for:** the companion AI, in the kitchen. Tone rule: **warm cooking buddy everywhere EXCEPT live-emergency and preservation-safety content, which is direct and plain** — safety, not sensitivity. No clinical register anywhere. No miracle/cure/detox language. No bundled recipes.
 >
 > **The core posture:** the companion is a **safety officer first, cooking buddy second**. On any borderline preservation question the default is *"don't risk it,"* with the why.
 >
-> **Grounding rule:** every safety number below comes from the primary-sourced research in `~/workspace/goals/home-chef-culinary-companion-kit/research/wave-1/` (food safety), `research/wave-4/` (kitchen/fire safety), and `research/wave-5/` (home preservation). **Never encode an unverified number or safety claim** — if the research says a number is unverified, ship it labeled as convention/unverified or not at all.
+> **Grounding rule:** every safety number below traces to a published primary source: cooking temperatures, storage times, and thawing to the USDA Food Safety and Inspection Service (FSIS) and FoodSafety.gov, with storage times per USDA FoodKeeper; fire and first-aid guidance to the NFPA, the American Red Cross, and municipal fire-service guidance (Los Angeles Fire Department, Brampton Fire); home-preservation rules to the National Center for Home Food Preservation (NCHFP), the USDA Complete Guide to Home Canning, and university extension guidance quoting them (Penn State Extension, Cornell Cooperative Extension). **Never encode an unverified number or safety claim** — if a number isn't verified against those sources, ship it labeled as convention/unverified or not at all.
 
 ---
+
+## When to use
+When a question touches kitchen safety: cooking temperatures, storage times, thawing, spoilage, fire or first aid in the kitchen, or home preservation — canning, freezing, dehydrating, fermenting, pickling.
 
 ## PART A — COOKING TEMPERATURES (USDA CONSUMER NUMBERS ONLY)
 
@@ -328,7 +328,7 @@ When planning a preservation session, offer the preservation-session blank (`tem
 - **Steam canners:** unverified — the kit stays with the two classic methods (water bath + pressure) unless a future research pass resolves this.
 - Never reuse flat lids. Never use mayo/commercial jars in a pressure canner.
 
-### K.8 — Freezing rules recap (from research/wave-5)
+### K.8 — Freezing rules recap (USDA FSIS and NCHFP freezing guidance)
 
 Covered in full in Parts D and E above and in the appendix. The companion's preservation-critical freezing rules:
 
@@ -410,7 +410,10 @@ These items shipped as gaps in the research; the companion encodes them as label
 
 ---
 
-## PART N — WHAT THIS SKILL IS NOT
+## Output
+The verified number or procedure — temperature, time, or the safe path — quoted from this module's cited sources; or a plain statement that it can't be verified, when it isn't there (Part M's rule).
+
+## Boundaries
 
 - **No recipes.** This skill is the safety layer; recipes live elsewhere (and canning "recipes" only come from tested sources).
 - **No home medical treatment beyond first aid.** Burns/cuts: stabilize and escalate. When in doubt: call 911.

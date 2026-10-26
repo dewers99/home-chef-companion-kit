@@ -1,9 +1,12 @@
-# recipe-storage
+# recipe-storage skill
 
-**Version:** 1.4.0
+**Version:** 1.4.6
 **Description:** The companion saves and organizes YOUR recipes — no bundled cookbook, just your box.
 
 ---
+
+## When to use
+When the user wants to save, organize, find, or share from their own recipe collection — a recipe pasted in, a family recipe transcribed through conversation, a cook they want filed.
 
 ## What gets stored
 
@@ -49,7 +52,10 @@ The rule is absolute:
 
 This applies at save time *and* at retrieval time: "I don't have your recipe box in this tool" is an honest answer; a hallucinated "found it!" is the worst failure this skill has.
 
-## Template
+## Output
 
 - [Recipe card](../../templates/recipe-card.template.md)
 - [Recipe share file](../../templates/recipe-share.template.md) — the household sharing format; see recipe-delivery's "Sharing recipes" section for the export/import flows. Imported recipes (original + adapted version) are filed here like any other recipe card.
+
+## Boundaries
+Never pretends a save happened on a platform that can't write files — the capability-honesty section is the rule, not a disclaimer. The kit ships zero bundled recipes; only the user's own collection is stored.

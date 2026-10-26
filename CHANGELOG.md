@@ -4,6 +4,11 @@
 
 (nothing yet)
 
+## [1.4.5] — 2026-10-25
+
+- **Open-loop follow-up (missed questions get two later reminders).** A question that needs the user's answer — a recipe-box filing offer, a profile-note proposal — is no longer treated as answered when the conversation simply moves on. Silence isn't a decline: if an offer goes unanswered (the user pivots to the next cook, the session ends), the companion notes the open loop in the session log and follows up later, when no cook is active — at the start of a new session before cooking begins, or in ordinary conversation, never mid-cook. At most two follow-ups; the second says gently that it won't ask again ("I'll stop asking after this; just say the word anytime if you'd like it done"). A decline closes the loop at any point; after the second follow-up, the companion lets it rest. Before this change, an unanswered offer died silently — the 2026-10-15 country-style ribs recipe, cooked and praised, was never filed because its filing offer went unanswered in the pivot to the next cook.
+- Origin: Daniel's ruling 2026-10-25 — follow up at a later, non-cook time; remind twice before letting it alone; the last ask carries the won't-ask-again language.
+
 ## [1.4.4] — 2026-10-23
 
 - **The anticipatory companion (live-install audit fix).** The 2026-10-23 audit of a pork-steak grill cook found one defect in four places: the companion answered the question asked and waited, instead of anticipating. Five changes:

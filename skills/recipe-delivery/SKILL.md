@@ -1,6 +1,6 @@
 # recipe-delivery skill
 
-**Version:** 1.4.6
+**Version:** 1.4.7
 **Description:** Recipes served three ways — full on-screen, printable checklist, or a step-by-step cook-along. Plus household recipe sharing: export a share file, or import one with adaptations tailored to the recipient's kitchen.
 
 ---

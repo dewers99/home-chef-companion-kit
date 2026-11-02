@@ -12,9 +12,12 @@ Fill one copy per cook session. This is the companion's working memory during th
 - **Recipe source:** (user's own / companion-developed / external — name it)
 - **Preheat:** (target temperature + when started, for any method with a preheat — oven, grill, smoker, air fryer)
 
-## Recipe candidates (companion-generated recipes — recorded when given, verdict at follow-up)
+## Recipe candidates (companion-generated recipes — saved automatically when given and cooked from; verdict recorded when it lands)
 
-- (Full recipe text as given, marked candidate until the follow-up verdict: file in the recipe box, revise, or drop)
+Per candidate:
+- **Recipe:** (full text as given)
+- **Verdict:** (pending / favorable / unfavorable — the user's own words, plus any change notes)
+- **Status:** (candidate / filed in recipe box / rejected — a rejected recipe is never offered again unless the user explicitly asks for it)
 
 ## Timing agreement (asked at the START of the cook)
 

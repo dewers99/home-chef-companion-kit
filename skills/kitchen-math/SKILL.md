@@ -1,6 +1,6 @@
 # kitchen-math skill
 
-**Version:** 1.4.6
+**Version:** 1.4.7
 **Description:** Grams-first conversions, the three real cups, pan-size and yield-scaling rules, altitude adjustments, and measurement-technique guidance for everyday home cooking.
 
 ---

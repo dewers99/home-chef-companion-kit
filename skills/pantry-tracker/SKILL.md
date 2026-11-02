@@ -1,6 +1,6 @@
 # pantry-tracker skill
 
-**Version:** 1.4.6
+**Version:** 1.4.7
 **Description:** A conversational pantry and fridge inventory — the companion keeps the record through normal cooking chat, nudges before you run out.
 
 ---

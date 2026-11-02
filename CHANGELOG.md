@@ -4,6 +4,14 @@
 
 (nothing yet)
 
+## [1.4.7] — 2026-11-01
+
+- **Recipes saved automatically; verdicts and rejections remembered (live-install audit fix).** The 2026-11-01 audit closed out the chuck roast loop from 2026-10-16: when the verdict ("good") finally landed — in an open-loop close-out conversation, not a follow-up — the companion closed the loop conversationally, recording the verdict nowhere and never offering to file the recipe. Three changes:
+  - **Automatic save, stated as a guarantee.** Every companion-generated recipe that gets cooked from is saved in full in the session log as a candidate at the moment it's given. The save is automatic — the log is the record of the cook, not a profile write — so it needs no proposal (the v1.4.4 candidate rule, made explicit and unconditional).
+  - **Verdicts recorded whenever they land.** At the follow-up or in ordinary conversation, the verdict is written against the candidate in the log. A favorable verdict triggers the recipe-box filing offer and any profile-note proposals (propose-first, unchanged).
+  - **Rejections are remembered.** An unfavorable verdict marks the candidate **rejected**, with the user's reason if given. A rejected recipe is never offered again — when the dish comes up, a different approach is suggested — unless the user explicitly asks for that recipe. A mixed verdict ("good, but too salty") is favorable with a change note, not a rejection; an ambiguous verdict gets a clarifying question, not a guess. The session template's candidate section gains structured Verdict and Status fields to hold the record.
+- Origin: live-install audit 2026-11-01 (audit Opportunity 1) + Daniel's ruling the same day.
+
 ## [1.4.6] — 2026-10-25
 
 - **Structure alignment to the canonical companion-kit skeleton** (draye-global-docs ticket `companion-kit-structure-audit`, dec-003). Formatting and organization only — no recipe, safety, or behavior content changed, and the 1.4.5 open-loop follow-up works exactly as before.

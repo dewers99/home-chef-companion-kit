@@ -1,6 +1,6 @@
 # meal-planning skill
 
-**Version:** 1.4.6
+**Version:** 1.4.7
 **Description:** Weekly meal plans that build themselves into shopping lists — plan, shop, cook, review.
 
 ---

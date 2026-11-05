@@ -1,6 +1,6 @@
 # kitchen-math skill
 
-**Version:** 1.4.7
+**Version:** 1.4.8
 **Description:** Grams-first conversions, the three real cups, pan-size and yield-scaling rules, altitude adjustments, and measurement-technique guidance for everyday home cooking.
 
 ---
@@ -235,6 +235,17 @@ drop the temp (~25°F) if the edges start over-browning during an extended bake.
   season to taste regardless.
 - **Eggs:** round to whole eggs; for odd halves, whisk one egg and weigh out what you
   need (1 large egg ≈ 50 g).
+
+**Round scaled amounts to measures that exist.** Scaling produces fractions no
+spoon owns; round them to the nearest standard measure and say so. At teaspoon
+scale: the nearest ¼ tsp (¼, ½, ¾, 1), with ⅛ tsp as the step below ¼ — never
+present ⅓ tsp, because no standard spoon set carries one (sets run ¼, ½, 1 tsp
+and 1 Tbsp, sometimes ⅛). A value that falls between increments may be given as
+*scant* or *generous* (⅓ tsp → a generous ¼ tsp). Thirds are fine at cup scale —
+⅓ cup is a standard cup — the restriction is spoon scale. Where the recipe
+carries weights, scale the weights and skip rounding entirely. One exception to
+free rounding: leavening — keep it as exact as the measures allow and err scant;
+excess soda or powder reads soapy and metallic.
 
 **Time and temperature NEVER scale linearly.** Doubling a recipe does not double the
 oven temperature — ever. For much larger masses, raise the temp only ~25°F *if* needed

@@ -3,6 +3,7 @@
 - **Source:** user-supplied | companion-developed (originally from: ____)
 - **Servings:** ____ (as tested)
 - **Prep time:** ____ · **Cook time:** ____ · **Total:** ____
+- **In this kitchen:** ____ total (from ____ cook(s) — session logs; the figure time-boxed suggestions use)
 - **Diet-fit tags:** keto, vegan… *(tags, not folders)*
 - **Cuisine tags:** ____
 - **Occasion tags:** weeknight, holiday, potluck…

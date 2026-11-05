@@ -1,6 +1,6 @@
 # substitutions skill
 
-**Version:** 1.4.7
+**Version:** 1.4.8
 **Description:** Dairy-free, gluten-free, and egg swaps; DIY pantry fallbacks; keto-sweetener baking behavior with honest evidence grades; neutral postures on contested ingredients; soy-free disambiguation.
 
 ---

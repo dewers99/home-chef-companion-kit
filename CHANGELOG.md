@@ -4,6 +4,15 @@
 
 (nothing yet)
 
+## [1.4.8] — 2026-11-04
+
+Four refinements from one cook — the live-install audit of the 2026-11-04 chicken parm bake (the first live cook with a session log), plus Daniel's corrections during it. All four approved as a batch:
+
+- **Practical-fraction rounding (kitchen-math).** Scaled teaspoon amounts now round to the nearest ¼ tsp (⅛ tsp as the step below ¼), never thirds — no standard spoon set has a ⅓ tsp (sets run ¼, ½, 1 tsp, 1 Tbsp). A value between increments may be given as *scant* or *generous*; leavening is kept as exact as the measures allow and erred scant. Origin: the companion's first scaled ingredient list for the cook offered ⅓ and ⅔ tsp before Daniel corrected it to quarters mid-cook. Researched against standard practice before drafting (extension-service reduction charts never print ⅓ tsp; they render it as a generous ¼).
+- **Preheat start timed to the dish (recipe-delivery rule 9).** The callout still lands in the first instruction block, but when prep is long the callout names the start point in the timeline ("start the preheat when the sauce goes on") and the start cue is given when the moment arrives — the oven no longer burns empty through early prep. Origin: Daniel's in-cook instruction to time the preheat to the dish rather than running it from the start.
+- **Equipment rides with ingredients (recipe-delivery rule 15, new).** An up-front ingredient list for a cook now also carries the equipment and tools the cook needs, in every delivery mode. Origin: Daniel was prepping from the ingredient list and the tools were nowhere in it; the session log recorded equipment as used, but nothing surfaced it before the first step.
+- **Cook times captured for prediction (AGENT.md, cook-session template, recipe-card template, meal-planning).** Session logs gain a structured Session times section (prep start, cooking start, finish; prep/cook/total durations); the totals are carried onto the recipe card's new "In this kitchen" line with the number of cooks they rest on (the card's Prep/Cook/Total fields existed but were never fed by real cooks); and time-boxed requests ("company coming in an hour") now suggest from recorded totals that fit the window with ~15 minutes of padding, labeled by the cooks behind the estimate. Origin: Daniel's post-audit question — the log held clock anchors in prose, but nothing a future prediction could run on.
+
 ## [1.4.7] — 2026-11-01
 
 - **Recipes saved automatically; verdicts and rejections remembered (live-install audit fix).** The 2026-11-01 audit closed out the chuck roast loop from 2026-10-16: when the verdict ("good") finally landed — in an open-loop close-out conversation, not a follow-up — the companion closed the loop conversationally, recording the verdict nowhere and never offering to file the recipe. Three changes:

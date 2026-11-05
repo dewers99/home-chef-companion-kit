@@ -45,6 +45,13 @@ Per candidate:
 
 - (e.g., "Par-bake 10 min vs 14–16 suggested"; "5-min rest for psyllium hydration")
 
+## Session times (clock times — the raw material for time prediction)
+
+- **Started prep:** (clock time)
+- **Started cooking:** (clock time — heat on, first cooking step)
+- **Finished:** (clock time — ready to eat, rest included)
+- **Prep time:** ____ · **Cook time:** ____ · **Total:** ____
+
 ## Outcome observations
 
 - (What the companion noticed: browning, texture, doneness cues)

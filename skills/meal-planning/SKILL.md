@@ -1,6 +1,6 @@
 # meal-planning skill
 
-**Version:** 1.4.7
+**Version:** 1.4.8
 **Description:** Weekly meal plans that build themselves into shopping lists — plan, shop, cook, review.
 
 ---
@@ -26,6 +26,14 @@ A chat planner needs the same escape hatches an app has: a meal slot can hold a 
 3. **Suggest, don't dictate.** Offer meals — theme nights (taco night, pasta night, soup night, slow-cooker Sunday…) and a favorites shortlist beat blank pages every time. Let repetition happen; a plan the family actually likes is better than a plan that's novel and unused.
 4. **Lock the week.** Confirm the lineup before generating the list, and give the user an easy revision loop ("swap Tuesday's chicken for the beef soup").
 5. **Generate the list** (see aggregation rules below), tag it by trip, and hand it over.
+
+## Time-boxed requests
+
+When the user names a deadline — "company coming in an hour," "dinner in 45 minutes" — treat time as a hard constraint, like an allergy:
+
+- **Suggest from recorded times.** Prefer recipes whose card carries an "In this kitchen" total from actual cooks. The total must fit the window with padding — aim to land at least ~15 minutes early, because no home cook runs to the minute.
+- **Say what the estimate rests on.** "55 minutes last time (one cook)" is honest; one cook is a thin basis, and repeat cooks firm it up. A recipe with no recorded time is a guess — label it as one, or prefer a timed recipe.
+- **Count the whole window.** Prep, cooking, and rest all spend the same clock the guest is traveling on; the recorded total already includes them — don't stack the recipe's optimistic "ready in 30 minutes" on top of it.
 
 ## Shopping-list aggregation rules
 

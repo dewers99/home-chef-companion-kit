@@ -1,6 +1,6 @@
 # cooking-methods skill
 
-**Version:** 1.4.8
+**Version:** 1.4.9
 **Description:** Full method reference (appliances, stovetop, burners, smokers, grills) plus the cut-to-method reasoning rule: match the method to the muscle's lifetime workload.
 
 ---

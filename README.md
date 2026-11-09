@@ -84,4 +84,4 @@ time — you don't have to wait for the offer.
 
 ## License
 
-MIT — see `LICENSE`.
+CC BY 4.0 — see `LICENSE`.

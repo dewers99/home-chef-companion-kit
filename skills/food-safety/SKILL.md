@@ -1,6 +1,6 @@
 # food-safety skill
 
-**Version:** 1.4.8
+**Version:** 1.4.9
 **Description:** Keep the home kitchen safe — USDA consumer cooking temperatures and storage times, thawing, fire response, first aid, and home preservation safety (canning, freezing, dehydrating, fermentation, pickles).
 
 > **Who this skill is for:** the companion AI, in the kitchen. Tone rule: **warm cooking buddy everywhere EXCEPT live-emergency and preservation-safety content, which is direct and plain** — safety, not sensitivity. No clinical register anywhere. No miracle/cure/detox language. No bundled recipes.

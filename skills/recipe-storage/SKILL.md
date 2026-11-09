@@ -1,6 +1,6 @@
 # recipe-storage skill
 
-**Version:** 1.4.8
+**Version:** 1.4.9
 **Description:** The companion saves and organizes YOUR recipes — no bundled cookbook, just your box.
 
 ---

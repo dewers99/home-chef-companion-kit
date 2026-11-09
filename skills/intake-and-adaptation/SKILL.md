@@ -1,6 +1,6 @@
 # intake-and-adaptation skill
 
-**Version:** 1.4.8
+**Version:** 1.4.9
 **Description:** Guided intake quiz and portable user profile — how the companion learns
 a cook's skill level, household, tastes, equipment, and preferences so every answer is
 personalized from day one.

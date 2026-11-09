@@ -1,6 +1,6 @@
 # technique skill
 
-**Version:** 1.4.8
+**Version:** 1.4.9
 **Description:** Stocks and broths done honestly, yeast and proofing by the numbers, and sourdough taught by reading the dough — not the clock.
 
 ---

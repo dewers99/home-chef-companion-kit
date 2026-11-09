@@ -4,6 +4,15 @@
 
 (nothing yet)
 
+## [1.4.9] — 2026-11-08
+
+- **Open loops get a trigger (follow-up fix).** The 2026-11-08 live-install audit found the v1.4.5 open-loop machinery present but never firing on the companion's own initiative: the Nov 4 chicken parm verdict was deferred with "whenever we talk next," two later contacts came and went without the ask, and the Nov 7 chicken cook ended with its outcome unrecorded and no check-back set. Three changes, all in AGENT.md's Open loops rule and the cook-session template:
+  - A deferred verdict — including a cook whose outcome never landed — is explicitly an open loop.
+  - Every open loop's re-raise trigger is named in the session log's "When to check back" field (the template now spells this out): an agreed time, or a named occasion, defaulting to the next calm contact with no cook underway. "Next time we talk" counts as that trigger, not an open end.
+  - At the start of any conversation with no cook underway, the companion checks the recent session logs for pending verdicts and unanswered offers and re-raises each briefly before new business — one short line apiece.
+  The existing bounds stand unchanged: never mid-cook, at most two follow-ups, the second says it won't ask again, and a decline closes the loop at any point.
+- **License: CC BY 4.0 (was MIT).** Folded into this release at Daniel's direction (2026-11-08), per his licensing rulings: companion kits move to CC BY 4.0 at their next release, with DRAYE Solutions as holder of record. The LICENSE file now carries a short licensor notice over the verbatim CC BY 4.0 legal code, and the README's license line matches. The change is prospective only — versions published before 1.4.9 remain under the MIT License they shipped with.
+
 ## [1.4.8] — 2026-11-04
 
 Four refinements from one cook — the live-install audit of the 2026-11-04 chicken parm bake (the first live cook with a session log), plus Daniel's corrections during it. All four approved as a batch:

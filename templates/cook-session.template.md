@@ -23,7 +23,7 @@ Per candidate:
 
 - **When is this being eaten?** (right away / tonight / tomorrow / meal-prep for the week)
 - **Follow-up permission:** granted? yes / no
-- **When to check back:** (agreed time, or "next time we talk")
+- **When to check back:** (agreed time, or a named trigger — default: next calm contact, no cook underway; "next time we talk" means exactly that contact)
 
 ## Ingredients used (logged AS they're used, with brands)
 
@@ -56,7 +56,7 @@ Per candidate:
 
 - (What the companion noticed: browning, texture, doneness cues)
 
-## Unanswered offers (re-raise at follow-up)
+## Unanswered offers (re-raise at follow-up or the next calm contact)
 
 - (e.g., "Offered to write this up as a recipe — no answer yet")
 

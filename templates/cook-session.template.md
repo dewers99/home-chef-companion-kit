@@ -2,6 +2,7 @@
 
 **Home Chef Companion Kit — template.**
 Fill one copy per cook session. This is the companion's working memory during the cook — it writes here so nothing gets lost or mixed up in a long session.
+At close-out, every section is filled or struck: an empty section left standing reads as data that was never there, and a section that doesn't apply is struck, not abandoned.
 
 ---
 
@@ -23,9 +24,9 @@ Per candidate:
 
 - **When is this being eaten?** (right away / tonight / tomorrow / meal-prep for the week)
 - **Follow-up permission:** granted? yes / no
-- **When to check back:** (agreed time, or a named trigger — default: next calm contact, no cook underway; "next time we talk" means exactly that contact)
+- **When to check back:** (agreed time, or a named trigger — default: the close-out of the next cook session, or the next calm contact with no cook underway; "next time we talk" means exactly that contact)
 
-## Ingredients used (logged AS they're used, with brands)
+## Ingredients used (logged AS they're used, with brands — only what was actually cooked; planned amounts for a cook that hasn't happened yet belong under the candidate recipe above, never here)
 
 | Ingredient | Amount | Brand | Notes |
 |---|---|---|---|
@@ -50,7 +51,8 @@ Per candidate:
 - **Started prep:** (clock time)
 - **Started cooking:** (clock time — heat on, first cooking step)
 - **Finished:** (clock time — ready to eat, rest included)
-- **Prep time:** ____ · **Cook time:** ____ · **Total:** ____
+- **Final temp:** (the thermometer reading at the end, and where it was taken — or "not stated")
+- **Prep time:** ____ · **Cook time:** ____ · **Total:** ____ (a number that wasn't captured at close-out is recorded as "not stated" — never left blank)
 
 ## Outcome observations
 

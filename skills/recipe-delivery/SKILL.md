@@ -1,6 +1,6 @@
 # recipe-delivery skill
 
-**Version:** 1.4.9
+**Version:** 1.4.10
 **Description:** Recipes served three ways — full on-screen, printable checklist, or a step-by-step cook-along. Plus household recipe sharing: export a share file, or import one with adaptations tailored to the recipient's kitchen.
 
 ---
@@ -87,7 +87,7 @@ An imported recipe is a **living recipe**: the companion doesn't just file it �
    - **Equipment** — "This calls for a wire-mesh pan; you have a sheet pan — here's the adjustment."
    - **Servings** — "This serves 4; your household is 2 — want me to scale it?"
    - **Diet conflicts** — "This has sugar; you're keto — here are the tested swaps."
-   - **Household preferences** — who you're feeding: the eaters in the profile and their restrictions ("Trish doesn't like tang — this has balsamic; suggest skipping").
+   - **Household preferences** — who you're feeding: the eaters in the profile and their restrictions ("an eater who doesn't like tang — this has balsamic; suggest skipping").
 4. Present the original alongside the proposed "your kitchen's version," each adaptation explained and individually declinable.
 5. On accept: file **both** the canonical original and the adapted version in the recipe box; propose profile updates (new equipment, new pantry items) per the existing propose-before-write rule — never auto-write.
 6. On decline (any or all): file the original as-is. No residue, no hard feelings.

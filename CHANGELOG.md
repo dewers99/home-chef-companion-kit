@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-(nothing yet)
+- Push guard landed (w-0956): `bin/push_guard.py` + `bin/hooks/pre-push`; pushes to main now require check-set -> declare.
 
 ## [1.4.10] — 2026-11-22
 
